@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "nome": "Carlos Oliveira",
+    "foto": "./images/carlos_oliveira.jpg",
+    "cargo": "Pintor Profissional e Texturização",
+    "resumo": "Mais de 15 anos de experiência em pinturas residenciais e comerciais. Especialista em texturas e acabamentos finos.",
+    "localizacao": "Campinas/SP",
+    "area": "Construção Civil",
+    "habilidadesTecnicas": ["Pintura Interna/Externa", "Texturização", "Grafiato", "Envernizamento", "Massa Corrida"],
+    "softSkills": ["Pontualidade", "Organização", "Atenção aos Detalhes", "Limpeza"],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Pintor",
+        "inicio": "2008-01",
+        "fim": "atual",
+        "descricao": "Execução de projetos de pintura para residências e fachadas comerciais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Reforma Residencial Bairro X",
+        "link": "https://www.instagram.com/exemplo",
+        "descricao": "Galeria de fotos do 'antes e depois' de uma casa completa."
+      }
+    ],
+    "areaInteresses": ["Novas técnicas de pintura", "Decoração de Interiores"]
+  },
+  {
+    "id": 2,
+    "nome": "Maria Andrade",
+    "foto": "./images/maria_andrade.jpg",
+    "cargo": "Costureira e Modelista",
+    "resumo": "Especializada em ajustes finos e confecção de peças sob medida. Paixão por transformar tecidos em sonhos.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Moda e Confecção",
+    "habilidadesTecnicas": ["Ajustes Finos (Festas)", "Modelagem Plana", "Confecção Sob Medida", "Bordado Manual", "Uso de Overlock"],
+    "softSkills": ["Criatividade", "Paciência", "Bom Gosto", "Atendimento ao Cliente"],
+    "experiencias": [
+      {
+        "empresa": "Ateliê Fina Costura (Próprio)",
+        "cargo": "Costureira Chefe",
+        "inicio": "2015-03",
+        "fim": "atual",
+        "descricao": "Criação e ajuste de vestidos de noiva, madrinhas e trajes de festa."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Catálogo de Peças",
+        "link": "https://api.whatsapp.com/send?phone=553199999999",
+        "descricao": "Veja meu catálogo de peças prontas e agende uma visita."
+      }
+    ],
+    "areaInteresses": ["Moda Sustentável", "Customização (Upcycling)"]
+  },
+  {
+    "id": 3,
+    "nome": "Rafael Souza",
+    "foto": "./images/rafael_souza.jpg",
+    "cargo": "Eletricista Residencial e Predial",
+    "resumo": "Serviços elétricos com segurança e qualidade. Instalações, manutenções e reparos. Atendimento rápido.",
+    "localizacao": "Salvador/BA",
+    "area": "Serviços",
+    "habilidadesTecnicas": ["Instalação Elétrica (Baixa Tensão)", "Troca de Disjuntores", "Padrão de Entrada", "Instalação de Luminárias", "Manutenção Preventiva"],
+    "softSkills": ["Responsabilidade", "Segurança", "Honestidade", "Agilidade"],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Eletricista",
+        "inicio": "2012-01",
+        "fim": "atual",
+        "descricao": "Atendimento a chamados de emergência e projetos de instalação elétrica."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Instalação Loja Y",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Projeto de modernização da iluminação de uma loja comercial."
+      }
+    ],
+    "areaInteresses": ["Automação Residencial", "Energia Solar"]
+  },
+  {
+    "id": 4,
+    "nome": "Juliana Lima",
+    "foto": "./images/juliana_lima.jpg",
+    "cargo": "Artesã - Crochê e Macramê",
+    "resumo": "Criação de peças de decoração e vestuário em crochê e macramê. Produtos 100% manuais e com design exclusivo.",
+    "localizacao": "Recife/PE",
+    "area": "Artesanato",
+    "habilidadesTecnicas": ["Crochê (Amigurumi)", "Macramê (Painéis)", "Bordado Livre", "Tingimento Natural"],
+    "softSkills": ["Criatividade", "Atenção aos Detalhes", "Paciência", "Originalidade"],
+    "experiencias": [
+      {
+        "empresa": "Loja Fios e Formas (Própria)",
+        "cargo": "Artesã",
+        "inicio": "2018-06",
+        "fim": "atual",
+        "descricao": "Venda de produtos sob encomenda e participação em feiras locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Portfólio no Instagram",
+        "link": "https://www.instagram.com/exemplo",
+        "descricao": "Galeria com minhas principais criações, incluindo painéis de macramê e amigurumis."
+      }
+    ],
+    "areaInteresses": ["Economia Criativa", "Sustentabilidade", "Oficinas de Artesanato"]
+  },
+  {
+    "id": 5,
+    "nome": "Fernando Martins",
+    "foto": "./images/fernando_martins.jpg",
+    "cargo": "Pedreiro e Mestre de Obras",
+    "resumo": "Execução e supervisão de obras, desde a fundação até o acabamento. Especialista em alvenaria e revestimentos.",
+    "localizacao": "Curitiba/PR",
+    "area": "Construção Civil",
+    "habilidadesTecnicas": ["Alvenaria Estrutural", "Assentamento de Porcelanato", "Reboco", "Leitura de Plantas", "Hidráulica Básica"],
+    "softSkills": ["Liderança de Equipe", "Resolução de Problemas", "Comprometimento", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Mestre de Obras",
+        "inicio": "2005-03",
+        "fim": "atual",
+        "descricao": "Gestão de pequenas equipes em reformas residenciais e construção de casas."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Construção Casa X",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Fotos das etapas da construção de uma residência de 2 pavimentos."
+      }
+    ],
+    "areaInteresses": ["Novos Materiais de Construção", "Segurança no Trabalho"]
+  },
+  {
+    "id": 6,
+    "nome": "Beatriz Santos",
+    "foto": "./images/beatriz_santos.jpg",
+    "cargo": "Designer Gráfica Freelancer",
+    "resumo": "Criação de identidade visual (logotipos, paleta de cores) e materiais de marketing digital para pequenos negócios.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Design",
+    "habilidadesTecnicas": ["Adobe Illustrator", "Adobe Photoshop", "Canva Pro", "Identidade Visual", "Social Media Design"],
+    "softSkills": ["Comunicação", "Criatividade", "Cumprimento de Prazos", "Escuta Ativa"],
+    "experiencias": [
+      {
+        "empresa": "Freelancer",
+        "cargo": "Designer Gráfica",
+        "inicio": "2019-01",
+        "fim": "atual",
+        "descricao": "Atendimento a mais de 50 clientes MEI e PMEs na criação de suas marcas."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Portfólio Behance",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Alguns dos meus principais projetos de branding e social media."
+      }
+    ],
+    "areaInteresses": ["Branding", "Marketing Digital", "Tipografia"]
+  },
+  {
+    "id": 7,
+    "nome": "Ricardo Pereira",
+    "foto": "./images/ricardo_pereira.jpg",
+    "cargo": "Marceneiro e Móveis Planejados",
+    "resumo": "Projeto e execução de móveis sob medida para cozinhas, quartos e escritórios. Foco em acabamento de alta qualidade.",
+    "localizacao": "São Paulo/SP",
+    "area": "Mobiliário",
+    "habilidadesTecnicas": ["Móveis Planejados (MDF/MDP)", "Leitura de Projetos 3D", "Laqueação", "Instalação de Ferragens"],
+    "softSkills": ["Precisão", "Atenção aos Detalhes", "Planejamento", "Bom Gosto"],
+    "experiencias": [
+      {
+        "empresa": "Marcenaria Fina Arte (Próprio)",
+        "cargo": "Marceneiro Chefe",
+        "inicio": "2010-07",
+        "fim": "atual",
+        "descricao": "Desenvolvimento de projetos de mobiliário em parceria com arquitetos e clientes finais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Cozinha Planejada - Projeto Z",
+        "link": "https://www.instagram.com/exemplo",
+        "descricao": "Fotos do projeto de uma cozinha completa em MDF naval."
+      }
+    ],
+    "areaInteresses": ["Design de Interiores", "Novas Ferragens", "Sustentabilidade (Reuso de Madeira)"]
+  },
+  {
+    "id": 8,
+    "nome": "Patrícia Almeida",
+    "foto": "./images/patricia_almeida.jpg",
+    "cargo": "Diarista / Faxineira",
+    "resumo": "Serviços de limpeza residencial e pós-obra. Organização e eficiência para manter seu ambiente limpo e agradável.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Serviços Domésticos",
+    "habilidadesTecnicas": ["Limpeza Pesada", "Faxina Pós-Obra", "Organização de Ambientes", "Passar Roupas", "Uso de Produtos Específicos"],
+    "softSkills": ["Confiança", "Discrição", "Eficiência", "Organização", "Pontualidade"],
+    "experiencias": [
+      {
+        "empresa": "Autônoma",
+        "cargo": "Diarista",
+        "inicio": "2016-01",
+        "fim": "atual",
+        "descricao": "Atendimento a clientes fixos semanais e quinzenais, além de faxinas pesadas agendadas."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Agendamento via WhatsApp",
+        "link": "https://api.whatsapp.com/send?phone=552199999999",
+        "descricao": "Clique para ver referências e agendar uma data para sua limpeza."
+      }
+    ],
+    "areaInteresses": ["Organização Residencial (Personal Organizer)", "Produtos de Limpeza Ecológicos"]
+  },
+  {
+    "id": 9,
+    "nome": "Lucas Gomes",
+    "foto": "./images/lucas_gomes.jpg",
+    "cargo": "Técnico de Refrigeração",
+    "resumo": "Instalação e manutenção de ar condicionado residencial e comercial. Especialista em limpeza e reparo.",
+    "localizacao": "Manaus/AM",
+    "area": "Serviços",
+    "habilidadesTecnicas": ["Instalação de Split", "Manutenção Preventiva", "Carga de Gás", "Limpeza de Sistema", "Reparo de Placa"],
+    "softSkills": ["Agilidade", "Honestidade", "Limpeza no Serviço", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Refrigeração Norte (Próprio)",
+        "cargo": "Técnico Líder",
+        "inicio": "2017-05",
+        "fim": "atual",
+        "descricao": "Atendimento a chamados para instalação e reparo de sistemas de ar condicionado."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Instalação Comercial",
+        "link": "https://www.instagram.com/exemplo",
+        "descricao": "Instalação de 5 máquinas de teto em uma loja."
+      }
+    ],
+    "areaInteresses": ["Eficiência Energética", "Novos Gases Refrigerantes"]
+  },
+  {
+    "id": 10,
+    "nome": "Camila Bastos",
+    "foto": "./images/camila_bastos.jpg",
+    "cargo": "Confeiteira - Bolos e Doces",
+    "resumo": "Produção artesanal de bolos de festa, doces finos e sobremesas. Foco no sabor e em ingredientes de qualidade.",
+    "localizcacao": "Fortaleza/CE",
+    "area": "Alimentação",
+    "habilidadesTecnicas": ["Confeitaria Fina", "Bolos Decorados (Pasta Americana)", "Chocolateria", "Salgados Finos"],
+    "softSkills": ["Criatividade", "Higiene", "Atenção aos Detalhes", "Pontualidade na Entrega"],
+    "experiencias": [
+      {
+        "empresa": "Doce Sabor Ateliê (Próprio)",
+        "cargo": "Confeiteira",
+        "inicio": "2019-02",
+        "fim": "atual",
+        "descricao": "Atendimento a encomendas de casamentos, aniversários e eventos corporativos."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Cardápio e Encomendas",
+        "link": "https://www.instagram.com/exemplo_doces",
+        "descricao": "Veja meu portfólio de bolos e faça sua encomenda direta pelo Instagram."
+      }
+    ],
+    "areaInteresses": ["Novas Tendências de Confeitaria", "Empreendedorismo Feminino"]
+  }
+]

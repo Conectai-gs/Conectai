@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1762911280101,
+    "email": "admin@teste.com",
+    "senha": "$2b$10$YdGwlmO.awmgG4VzPx/EUeEhEzGpmQFVims6mmMPh3ff7AKKg6zFK"
+  },
+  {
+    "id": 1762911647457,
+    "email": "novousuario@teste.com",
+    "senha": "$2b$10$2DBhJAsa6SOwennhpMXKCebmwXxflg/mb9YbCjCNaq7PzR9qGA5YS"
+  }
+]
