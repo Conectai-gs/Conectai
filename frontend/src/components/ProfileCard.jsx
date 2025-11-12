@@ -8,9 +8,7 @@ function ProfileCard({ perfil, onCardClick }) {
   return (
     <div
       onClick={() => onCardClick(perfil)} 
-      className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden 
-                 hover:shadow-xl transition-shadow duration-300 cursor-pointer 
-                 border border-gray-200 dark:border-gray-700"
+      className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-brand-accent/30 cursor-pointer h-full"
     >
       {/* placeholder de imagem */}
       <img
@@ -39,8 +37,7 @@ function ProfileCard({ perfil, onCardClick }) {
           {topSkills.map((skill, index) => (
             <span
               key={index}
-              className="text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 
-                         px-2 py-0.5 rounded-full"
+              className="text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-0.5 rounded-full"
             >
               {skill}
             </span>

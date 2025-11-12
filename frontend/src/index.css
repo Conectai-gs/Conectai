@@ -1,3 +1,42 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-brand-primary-light: #2563EB;
+  --color-brand-primary: #1D4ED8;
+  --color-brand-primary-dark: #1E40AF;
+
+  --color-brand-accent-light: #22D3EE;
+  --color-brand-accent: #FACC15;
+  --color-brand-accent-dark: #0E7490;
+
+  --color-brand-neutral-lightest: #FFFFFF;
+  --color-brand-neutral-light: #F8F9FA;
+  --color-brand-neutral: #E9ECEF;
+  --color-brand-neutral-dark: #343A40;
+  --color-brand-neutral-darker: #212529;
+  --color-brand-neutral-darkest: #000000;
+}
+
+/* 🌙 Tema escuro */
+@theme dark {
+  --color-brand-primary-light: #3B82F6; 
+  --color-brand-primary: #2563EB;
+  --color-brand-primary-dark: #1E3A8A;
+
+  --color-brand-accent-light: #67E8F9;
+  --color-brand-accent: #22D3EE;
+  --color-brand-accent-dark: #0E7490;
+
+  --color-brand-neutral-lightest: #111827;
+  --color-brand-neutral-light: #1F2937;
+  --color-brand-neutral: #374151;
+  --color-brand-neutral-dark: #E5E7EB;
+  --color-brand-neutral-darker: #F3F4F6;
+  --color-brand-neutral-darkest: #FFFFFF;
+}

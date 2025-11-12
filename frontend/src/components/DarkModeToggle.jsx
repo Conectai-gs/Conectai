@@ -5,8 +5,7 @@ function DarkModeToggle({ darkMode, toggleDarkMode }) {
   return (
     <button
       onClick={toggleDarkMode}
-      className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 
-                 fixed top-4 right-4 z-10 shadow-md hover:scale-105 transition-transform"
+      className="p-2 rounded-full text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-brand-neutral-dark"
       aria-label="Alternar modo claro/escuro"
     >
       {darkMode ? <Moon size={20} /> : <Sun size={20} />}
