@@ -19,10 +19,15 @@ function App() {
   });
 
   useEffect(() => {
-    const theme = darkMode ? "dark" : "light";
-    document.documentElement.dataset.theme = theme;
-    localStorage.setItem("theme", theme);
-  }, [darkMode]);
+    const html = document.documentElement;
+    if (darkMode) {
+      html.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      html.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+ }, [darkMode]);
 
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
