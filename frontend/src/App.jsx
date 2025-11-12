@@ -58,15 +58,15 @@ function App() {
 
     const filtered = profissionais.filter(perfil => {
       // Checa nome
-      if (perfil.nome.toLowerCase().includes(lowerCaseSearch)) return true;
+      if (perfil.nome?.toLowerCase().includes(lowerCaseSearch)) return true;
       // Checa cargo
-      if (perfil.cargo.toLowerCase().includes(lowerCaseSearch)) return true;
+      if (perfil.cargo?.toLowerCase().includes(lowerCaseSearch)) return true;
       // Checa localização
-      if (perfil.localizacao.toLowerCase().includes(lowerCaseSearch)) return true;
+      if (perfil.localizacao?.toLowerCase().includes(lowerCaseSearch)) return true;
       // Checa área
-      if (perfil.area.toLowerCase().includes(lowerCaseSearch)) return true;
+      if (perfil.area?.toLowerCase().includes(lowerCaseSearch)) return true;
       // Checa habilidades 
-      if (perfil.habilidadesTecnicas.some(skill => skill.toLowerCase().includes(lowerCaseSearch))) return true;
+      if (perfil.habilidadesTecnicas?.some(skill => skill.toLowerCase().includes(lowerCaseSearch))) return true;
 
       return false; // Se nada bater, não inclui
     });
