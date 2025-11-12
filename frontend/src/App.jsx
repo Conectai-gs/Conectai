@@ -4,6 +4,7 @@ import ProfileCard from "./components/ProfileCard";
 import DarkModeToggle from "./components/DarkModeToggle";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import ProfileModal from "./components/ProfileModal.jsx";
+import SearchBar from "./components/SearchBar";
 
 const API_URL = "http://localhost:5001/api/profissionais";
 
@@ -14,6 +15,8 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedProfile, setSelectedProfile] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [filteredProfiles, setFilteredProfiles] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem("theme");
@@ -39,6 +42,7 @@ function App() {
       try {
         const response = await axios.get(API_URL);
         setProfissionais(response.data);
+        setFilteredProfiles(response.data); // Inicia a lista filtrada
       } catch (err) {
         setError(err.message);
         console.error("Erro ao buscar dados:", err);
@@ -49,14 +53,36 @@ function App() {
     fetchProfissionais();
   }, []);
 
-  // Função para ir ao próximo perfil
+  useEffect(() => {
+    const lowerCaseSearch = searchTerm.toLowerCase();
+
+    const filtered = profissionais.filter(perfil => {
+      // Checa nome
+      if (perfil.nome.toLowerCase().includes(lowerCaseSearch)) return true;
+      // Checa cargo
+      if (perfil.cargo.toLowerCase().includes(lowerCaseSearch)) return true;
+      // Checa localização
+      if (perfil.localizacao.toLowerCase().includes(lowerCaseSearch)) return true;
+      // Checa área
+      if (perfil.area.toLowerCase().includes(lowerCaseSearch)) return true;
+      // Checa habilidades 
+      if (perfil.habilidadesTecnicas.some(skill => skill.toLowerCase().includes(lowerCaseSearch))) return true;
+
+      return false; // Se nada bater, não inclui
+    });
+
+    setFilteredProfiles(filtered); // Atualiza a lista filtrada
+    setCurrentIndex(0); // Reseta o carousel para o primeiro item da busca
+  }, [searchTerm, profissionais]);
+
   const nextProfile = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % profissionais.length);
+    if (filteredProfiles.length === 0) return;
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % filteredProfiles.length);
   };
 
-  // Função para voltar ao perfil anterior
   const prevProfile = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + profissionais.length) % profissionais.length);
+    if (filteredProfiles.length === 0) return;
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + filteredProfiles.length) % filteredProfiles.length);
   };
 
   // Função para abrir o perfil Detalhado
@@ -98,42 +124,58 @@ return (
         Conectai - Encontre Profissionais
       </h1>
 
+      <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
+
       <div className="flex w-full max-w-lg items-center justify-center gap-1 md:gap-2">
 
         {/* Botão de voltar perfil */}
         <button
           onClick={prevProfile}
-          className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+          className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30"
           aria-label="Perfil Anterior"
+          disabled={filteredProfiles.length === 0} //Desabilita botões se não houver resultados
         >
           <ChevronLeft size={36} />
         </button>
 
-        <div className="w-full max-w-md overflow-hidden">
-          <div
-            className="flex transition-transform duration-500 ease-in-out"
-            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-          >
-            {profissionais.map((perfil) => (
-              <div key={perfil.id} className="w-full flex-shrink-0 p-2">
-                <ProfileCard
-                  perfil={perfil}
-                  onCardClick={handleCardClick}
-                />
-              </div>
-            ))}
-          </div>
+
+        <div className="w-full max-w-md h-[34rem] overflow-hidden"> 
+          {filteredProfiles.length === 0 ? (
+            <div className="w-full h-full flex justify-center items-center bg-white dark:bg-gray-800 rounded-lg shadow-md p-4">
+              <p className="text-xl font-semibold text-gray-500 dark:text-gray-400">
+                Nenhum perfil encontrado.
+              </p>
+            </div>
+          ) : (
+            
+            // Container dos Slides
+            <div
+              className="flex transition-transform duration-500 ease-in-out h-full"
+              style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+            >
+              {filteredProfiles.map((perfil) => (
+                <div key={perfil.id} className="w-full h-full flex-shrink-0 p-2">
+                  <ProfileCard
+                    perfil={perfil}
+                    onCardClick={handleCardClick}
+                  />
+                </div>
+              ))}
+            </div>
+          )}
         </div>
-        {/* Botão de próximo perfil */}
+
+        {/* Botão de avançar perfis */}
         <button
           onClick={nextProfile}
-          className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+          className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30"
           aria-label="Próximo Perfil"
+          disabled={filteredProfiles.length === 0} // Desabilita botões se não houver resultados
         >
           <ChevronRight size={36} />
         </button>
       </div>
-      {/* O modal só é renderizado se isModalOpen for true */}
+      
       {isModalOpen && (
         <ProfileModal
           perfil={selectedProfile} 
