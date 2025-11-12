@@ -54,7 +54,7 @@ function LoginCadastro() {
     >
       <div className="container mx-auto px-4 max-w-4xl">
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">
-          Faça parte do Conectai
+          Faça parte do Conectaí
         </h2>
         
         <div className="grid md:grid-cols-2 gap-8">
@@ -107,7 +107,7 @@ function LoginCadastro() {
             <p className="text-center text-sm mt-4 text-gray-700 dark:text-gray-300">
               Novo por aqui? 
               <Link to="/registar-cliente" className="font-semibold text-brand-primary hover:underline ml-1">
-                Registe-se
+                Registre-se
               </Link>
             </p>
           </div>

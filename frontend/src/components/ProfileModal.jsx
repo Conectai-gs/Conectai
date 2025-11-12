@@ -15,7 +15,7 @@ function ProfileModal({ perfil, onClose }) {
   return (
     <div
       onClick={onClose}
-      className="fixed inset-0 z-50 flex justify-center items-center bg-brand-neutral-darkest/75 p-4"
+      className="fixed inset-0 z-50 flex justify-center items-center bg-brand-neutral-darkest p-4"
     >
       <div
         onClick={(e) => e.stopPropagation()}
