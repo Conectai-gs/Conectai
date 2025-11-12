@@ -1,28 +1,20 @@
 import React from 'react';
-import Header from './components/Header';
-import Inicio from './sections/Inicio';
-import Sobre from './sections/Sobre';
-import LoginCadastro from './sections/LoginCadastro';
+import { Routes, Route } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
+import AppPage from './pages/AppPage';
+import RegisterClientPage from './pages/RegisterClientPage';
+import RegisterProfPage from './pages/RegisterProfPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
-
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-500">
-      <Header />
-      <main>
-        <Inicio />
-        <Sobre />
-        <LoginCadastro />
-      </main>
-
-      <footer className="py-8 bg-white dark:bg-gray-800 border-t dark:border-gray-700">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-gray-600 dark:text-gray-400">
-            &copy; {new Date().getFullYear()} Conectai. Todos os direitos reservados.
-          </p>
-        </div>
-      </footer>
-    </div>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/app" element={<AppPage />} />
+      <Route path="/registar-cliente" element={<RegisterClientPage />} />
+      <Route path="/registar-profissional" element={<RegisterProfPage />} />
+      <Route path="*" element={<NotFoundPage />} />
+    </Routes>
   );
 }
 

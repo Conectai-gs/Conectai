@@ -1,182 +1,78 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
-import ProfileCard from "../components/ProfileCard.jsx";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import ProfileModal from "../components/ProfileModal.jsx";
-import SearchBar from "../components/SearchBar";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import ProfileCard from '../components/ProfileCard'; 
 
 const API_URL = "http://localhost:5001/api/profissionais";
 
 function Inicio() {
-  const [profissionais, setProfissionais] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [profiles, setProfiles] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedProfile, setSelectedProfile] = useState(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [filteredProfiles, setFilteredProfiles] = useState([]);
-  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     const fetchProfissionais = async () => {
       try {
         const response = await axios.get(API_URL);
-        setProfissionais(response.data);
-        setFilteredProfiles(response.data); // Inicia a lista filtrada
+        setProfiles(response.data.slice(0, 5)); 
       } catch (err) {
-        setError(err.message);
-        console.error("Erro ao buscar dados:", err);
-      } finally {
-        setLoading(false);
+        console.error("Erro ao buscar perfis para o carrossel:", err);
       }
     };
     fetchProfissionais();
   }, []);
 
   useEffect(() => {
-    const lowerCaseSearch = searchTerm.toLowerCase();
+    if (profiles.length === 0) return;
+    const timer = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % profiles.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, [currentIndex, profiles.length]);
 
-    const filtered = profissionais.filter(perfil => {
-      // Checa nome
-      if (perfil.nome?.toLowerCase().includes(lowerCaseSearch)) return true;
-      // Checa cargo
-      if (perfil.cargo?.toLowerCase().includes(lowerCaseSearch)) return true;
-      // Checa localização
-      if (perfil.localizacao?.toLowerCase().includes(lowerCaseSearch)) return true;
-      // Checa área
-      if (perfil.area?.toLowerCase().includes(lowerCaseSearch)) return true;
-      // Checa habilidades 
-      if (perfil.habilidadesTecnicas?.some(skill => skill.toLowerCase().includes(lowerCaseSearch))) return true;
-
-      return false; // Se nada bater, não inclui
-    });
-
-    setFilteredProfiles(filtered); // Atualiza a lista filtrada
-    setCurrentIndex(0); // Reseta o carousel para o primeiro item da busca
-  }, [searchTerm, profissionais]);
-
-  const nextProfile = () => {
-    if (filteredProfiles.length === 0) return;
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % filteredProfiles.length);
-  };
-
-  const prevProfile = () => {
-    if (filteredProfiles.length === 0) return;
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + filteredProfiles.length) % filteredProfiles.length);
-  };
-
-  // Função para abrir o perfil Detalhado
-  const handleCardClick = (perfil) => {
-    setSelectedProfile(perfil);
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-    setTimeout(() => {
-      setSelectedProfile(null);
-    }, 300); // 300ms
-  };
-
-// 
-  if (loading) {
+  if (profiles.length === 0) {
     return (
-      <div className="flex justify-center items-center h-screen dark:text-white">
-        <h1 className="text-2xl font-bold">Carregando...</h1>
-      </div>
+      <section id="inicio" className="min-h-screen flex flex-col justify-center items-center p-4 pt-20">
+        <h1 className="text-5xl font-bold text-brand-primary dark:text-brand-accent">Conectai</h1>
+        <p className="text-xl mt-4">Carregando vitrine de talentos...</p>
+      </section>
     );
   }
 
-  if (error) {
-    return (
-      <div className="flex justify-center items-center h-screen bg-red-100 dark:bg-red-900">
-        <h1 className="text-2xl font-bold text-red-700 dark:text-red-200">
-          Falha ao carregar dados: {error}
-        </h1>
-      </div>
-    );
-  }
-
-return (
-<section 
+  return (
+    <section 
       id="inicio" 
-      className="min-h-screen flex flex-col justify-center items-center p-4 pt-20" 
+      className="min-h-screen flex flex-col justify-center items-center p-4 pt-20 text-center" 
     >
-      <h1 className="text-4xl font-bold mb-6 text-center text-brand-primary dark:text-brand-accent">
-        Encontre o Profissional Certo
+      <h1 className="text-5xl md:text-6xl font-bold text-brand-primary dark:text-brand-accent">
+        Conectai
       </h1>
+      <p className="text-xl md:text-2xl mt-4 mb-8 max-w-lg">
+        A sua vitrine digital para encontrar e contratar os melhores talentos locais.
+      </p>
 
-      <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
-
-      {/* Mensagens de Loading e Erro */}
-      {loading && (
-        <div className="flex justify-center items-center h-64 dark:text-white">
-          <p className="text-2xl font-bold">Carregando...</p>
-        </div>
-      )}
-      {error && (
-         <div className="flex justify-center items-center h-64 bg-red-100 dark:bg-red-900 rounded-lg p-4">
-          <p className="text-2xl font-bold text-red-700 dark:text-red-200">
-            Falha ao carregar dados: {error}
-          </p>
-        </div>
-      )}
-
-      {!loading && !error && (
-        <div className="flex w-full max-w-lg items-center justify-center gap-1 md:gap-2">
-
-        {/*Botão de voltar perfis  */}
-          <button
-            onClick={prevProfile}
-            className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30"
-            aria-label="Perfil Anterior"
-            disabled={filteredProfiles.length === 0}
+      <div className="w-full max-w-md h-[34rem] relative">
+        {profiles.map((perfil, index) => (
+          <div
+            key={perfil.id}
+            className={`
+              absolute top-0 left-0 w-full h-full transition-opacity duration-1000
+              ${index === currentIndex ? 'opacity-100' : 'opacity-0'}
+            `}
           >
-            <ChevronLeft size={36} />
-          </button>
-
-          <div className="w-full max-w-md h-[34rem] overflow-hidden"> 
-            {filteredProfiles.length === 0 ? (
-              <div className="w-full h-full flex justify-center items-center bg-white dark:bg-gray-800 rounded-lg shadow-md p-4">
-                <p className="text-xl font-semibold text-gray-500 dark:text-gray-400">
-                  Nenhum perfil encontrado.
-                </p>
-              </div>
-            ) : (
-              <div
-                className="flex transition-transform duration-500 ease-in-out h-full"
-                style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-              >
-                {filteredProfiles.map((perfil) => (
-                  <div key={perfil.id} className="w-full h-full flex-shrink-0 p-2">
-                    <ProfileCard
-                      perfil={perfil}
-                      onCardClick={handleCardClick}
-                    />
-                  </div>
-                ))}
-              </div>
-            )}
+            <ProfileCard
+              perfil={perfil}
+              onCardClick={() => document.getElementById('login').scrollIntoView()}
+            />
           </div>
-
-        {/* Botão de avançar perfis */}
-          <button
-            onClick={nextProfile}
-            className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-30"
-            aria-label="Próximo Perfil"
-            disabled={filteredProfiles.length === 0}
-          >
-            <ChevronRight size={36} />
-          </button>
-        </div>
-      )}
+        ))}
+      </div>
       
-      {isModalOpen && (
-        <ProfileModal
-          perfil={selectedProfile} 
-          onClose={closeModal} 
-        />
-      )}
+      <a 
+        href="#login" 
+        className="mt-10 px-8 py-3 bg-brand-accent text-brand-neutral-darkest font-bold text-lg rounded-lg shadow-md hover:bg-brand-accent-dark transition-transform hover:scale-105"
+      >
+        Crie a sua Conta
+      </a>
+      
     </section>
   );
 }

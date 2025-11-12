@@ -1,10 +1,9 @@
 import React from 'react';
-import { X, Send, ThumbsUp } from 'lucide-react'; // Ícones para os botões
+import { X, Send, ThumbsUp } from 'lucide-react'; 
 
-function ProfileModal ({ perfil, onClose }) {
-  if (!perfil) return null; // Não carrega nada se nenhum perfil estiver selecionado
+function ProfileModal({ perfil, onClose }) {
+  if (!perfil) return null; 
 
-  // Funções de clique dos botões de ação 
   const handleSendMessage = () => {
     alert(`Iniciando chat com ${perfil.nome}!`);
   };
@@ -16,75 +15,70 @@ function ProfileModal ({ perfil, onClose }) {
   return (
     <div
       onClick={onClose}
-      className="fixed inset-0 z-50 flex justify-center items-center bg-black bg-opacity-75 p-4"
+      className="fixed inset-0 z-50 flex justify-center items-center bg-brand-neutral-darkest/75 p-4"
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="relative w-full max-w-2xl max-h-[90vh] bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden flex flex-col"
+        className="relative w-full max-w-2xl max-h-[90vh] bg-brand-neutral-lightest dark:bg-brand-neutral-light rounded-lg shadow-xl overflow-hidden flex flex-col"
       >
-        <div className="flex justify-between items-center p-4 border-b dark:border-gray-700">
-          <h2 className="text-2xl font-bold text-blue-700 dark:text-blue-400">
+        <div className="flex justify-between items-center p-4 border-b border-brand-neutral dark:border-brand-neutral">
+          <h2 className="text-2xl font-bold text-brand-primary dark:text-brand-accent">
             {perfil.nome}
           </h2>
           <button
             onClick={onClose}
-            className="p-2 rounded-full text-gray-500 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            className="p-2 rounded-full text-brand-neutral-dark dark:text-brand-neutral-dark hover:bg-brand-neutral dark:hover:bg-brand-neutral-dark"
             aria-label="Fechar modal"
           >
             <X size={24} />
           </button>
         </div>
 
-        <div className="p-6 overflow-y-auto space-y-6">
+        <div className="p-6 overflow-y-auto space-y-6 text-brand-neutral-darkest dark:text-brand-neutral-darkest">
           
-          {/* Resumo e Localização */}
           <section>
-            <p className="text-lg font-semibold text-gray-800 dark:text-gray-200">{perfil.cargo}</p>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">{perfil.localizacao}</p>
-            <p className="text-gray-700 dark:text-gray-300">{perfil.resumo}</p>
+            <p className="text-lg font-semibold">{perfil.cargo}</p>
+            <p className="text-sm text-brand-neutral-dark dark:text-brand-neutral-dark mb-3">{perfil.localizacao}</p>
+            <p>{perfil.resumo}</p>
           </section>
 
-          {/* Habilidades Técnicas */}
           <section>
-            <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Habilidades Técnicas</h3>
+            <h3 className="text-xl font-semibold mb-2">Habilidades Técnicas</h3>
             <div className="flex flex-wrap gap-2">
               {perfil.habilidadesTecnicas.map((skill, index) => (
-                <span key={index} className="text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full">
+                <span key={index} className="text-sm font-medium bg-brand-accent/30 dark:bg-brand-accent/20 text-brand-accent-dark dark:text-brand-accent px-3 py-1 rounded-full">
                   {skill}
                 </span>
               ))}
             </div>
           </section>
 
-          {/* Soft Skills */}
           <section>
-            <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Soft Skills</h3>
+            <h3 className="text-xl font-semibold mb-2">Soft Skills</h3>
             <div className="flex flex-wrap gap-2">
               {perfil.softSkills.map((skill, index) => (
-                <span key={index} className="text-sm font-medium bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-full">
+                <span key={index} className="text-sm font-medium bg-brand-neutral dark:bg-brand-neutral text-brand-neutral-darker dark:text-brand-neutral-darker px-3 py-1 rounded-full">
                   {skill}
                 </span>
               ))}
             </div>
           </section>
 
-          {/* Experiências */}
           <section>
-            <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Experiências</h3>
+            <h3 className="text-xl font-semibold mb-3">Experiências</h3>
             <div className="space-y-4">
               {perfil.experiencias.map((exp, index) => (
-                <div key={index} className="border-l-4 border-blue-500 pl-4">
-                  <h4 className="font-bold text-gray-800 dark:text-gray-100">{exp.cargo}</h4>
-                  <p className="text-sm font-medium text-blue-600 dark:text-blue-400">{exp.empresa} ({exp.inicio} - {exp.fim})</p>
-                  <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">{exp.descricao}</p>
+                <div key={index} className="border-l-4 border-brand-primary pl-4">
+                  <h4 className="font-bold">{exp.cargo}</h4>
+                  <p className="text-sm font-medium text-brand-primary dark:text-brand-primary">{exp.empresa} ({exp.inicio} - {exp.fim})</p>
+                  <p className="text-sm text-brand-neutral-dark dark:text-brand-neutral-dark mt-1">{exp.descricao}</p>
                 </div>
               ))}
             </div>
           </section>
 
-          {/* Projetos / Portfólio */}
           <section>
-            <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Portfólio / Projetos</h3>
+            <h3 className="text-xl font-semibold mb-3">Portfólio / Projetos</h3>
             <div className="space-y-4">
               {perfil.projetos.map((proj, index) => (
                 <div key={index}>
@@ -92,29 +86,29 @@ function ProfileModal ({ perfil, onClose }) {
                     href={proj.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-lg font-bold text-blue-600 dark:text-blue-400 hover:underline"
+                    className="text-lg font-bold text-brand-accent dark:text-brand-accent hover:underline"
                   >
                     {proj.titulo}
                   </a>
-                  <p className="text-sm text-gray-600 dark:text-gray-300">{proj.descricao}</p>
+                  <p className="text-sm text-brand-neutral-dark dark:text-brand-neutral-dark">{proj.descricao}</p>
                 </div>
               ))}
             </div>
           </section>
 
         </div>
-        
-        <div className="flex justify-end gap-3 p-4 border-t dark:border-gray-700 bg-gray-50 dark:bg-gray-800">
+
+        <div className="flex justify-end gap-3 p-4 border-t border-brand-neutral dark:border-brand-neutral bg-brand-neutral-light/50 dark:bg-brand-neutral-light/10">
           <button
             onClick={handleSendMessage}
-            className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors"
+            className="flex items-center gap-2 px-4 py-2 bg-brand-primary text-brand-neutral-lightest font-semibold rounded-lg shadow-md hover:bg-brand-primary-dark transition-colors"
           >
             <Send size={18} />
             Enviar Mensagem
           </button>
           <button
             onClick={handleRecommend}
-            className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-700 text-blue-700 dark:text-blue-300 font-semibold rounded-lg shadow-md hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors"
+            className="flex items-center gap-2 px-4 py-2 bg-brand-accent text-brand-neutral-darkest font-semibold rounded-lg shadow-md hover:bg-brand-accent-dark transition-colors"
           >
             <ThumbsUp size={18} />
             Recomendar

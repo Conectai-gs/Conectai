@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import DarkModeToggle from './DarkModeToggle';
 import { Menu, X } from 'lucide-react'; 
+import { Link } from 'react-router-dom'; // Importar Link (para o logo)
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false); // Efeito de scroll
 
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem("theme");
@@ -24,25 +26,46 @@ function Header() {
 
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
-  // Links de navegação
+  // Efeito de scroll (para o header "glassmorphism")
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   const navLinks = [
     { name: 'Início', href: '#inicio' },
     { name: 'Sobre', href: '#sobre' },
     { name: 'Entrar', href: '#login' },
   ];
 
-  return (
-    <header className="sticky top-0 z-40 w-full bg-white dark:bg-gray-800 shadow-md">
-      <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <a href="#inicio" className="text-2xl font-bold text-brand-primary dark:text-brand-accent">
-          Conect<strong className='text-brand-accent dark:text-brand-primary'>aí</strong>
-        </a>
+  // CORRIGIDO: Classes para o header "glassmorphism"
+  const headerClasses = `
+    fixed top-0 z-40 w-full transition-all duration-300
+    ${isScrolled
+      // Fundo branco/cinza com transparência
+      ? 'bg-white/80 dark:bg-gray-800/80 backdrop-blur-lg shadow-md border-b border-gray-200 dark:border-gray-700'
+      : 'bg-transparent border-b border-transparent'
+    }
+  `;
 
+  return (
+    <header className={headerClasses}> {/* Aplicar classes dinâmicas */}
+      <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
+        
+        {/* CORRIGIDO: O logo agora é um <Link> para a home '/' */}
+        <Link to="/" className="text-2xl font-bold text-brand-primary dark:text-brand-accent">
+          Conect<strong className='text-brand-accent dark:text-brand-primary'>aí</strong>
+        </Link>
+
+        {/* CORRIGIDO: Usa as cores padrão do Tailwind que você gostava */}
         <div className="hidden md:flex items-center space-x-6">
           {navLinks.map((link) => (
             <a
               key={link.name}
-              href={link.href}
+              href={link.href} // 'href' funciona para scroll na Landing Page
               className="font-medium text-gray-700 dark:text-gray-200 hover:text-brand-primary dark:hover:text-brand-accent transition-colors"
             >
               {link.name}
@@ -51,7 +74,7 @@ function Header() {
           <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         </div>
 
-        {/* Menu hamburguer*/}
+        {/* Menu hamburguer (Cores padrão) */}
         <div className="md:hidden flex items-center">
           <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
           <button
@@ -64,13 +87,14 @@ function Header() {
         </div>
       </nav>
 
+      {/* Menu mobile (Cores padrão) */}
       {isMobileMenuOpen && (
         <div className="md:hidden absolute z-30 w-full bg-white dark:bg-gray-800 shadow-lg py-4">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              onClick={() => setIsMobileMenuOpen(false)} // Fecha o menu ao clicar
+              onClick={() => setIsMobileMenuOpen(false)} 
               className="block px-6 py-3 text-lg font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
             >
               {link.name}
