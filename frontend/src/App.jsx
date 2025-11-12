@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import ProfileCard from "./components/ProfileCard";
 import DarkModeToggle from "./components/DarkModeToggle";
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import ProfileModal from "./components/ProfileModal.jsx";
 
 const API_URL = "http://localhost:5001/api/profissionais";
 
@@ -11,6 +12,8 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedProfile, setSelectedProfile] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem("theme");
@@ -56,9 +59,17 @@ function App() {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + profissionais.length) % profissionais.length);
   };
 
+  // Função para abrir o perfil Detalhado
   const handleCardClick = (perfil) => {
-    console.log("Card clicado:", perfil.nome);
-    
+    setSelectedProfile(perfil);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setTimeout(() => {
+      setSelectedProfile(null);
+    }, 300); // 300ms
   };
 
   if (loading) {
@@ -122,6 +133,13 @@ return (
           <ChevronRight size={36} />
         </button>
       </div>
+      {/* O modal só é renderizado se isModalOpen for true */}
+      {isModalOpen && (
+        <ProfileModal
+          perfil={selectedProfile} 
+          onClose={closeModal} 
+        />
+      )}
     </div>
   );
 }
