@@ -7,8 +7,19 @@
     "resumo": "Mais de 15 anos de experiência em pinturas residenciais e comerciais. Especialista em texturas e acabamentos finos.",
     "localizacao": "Campinas/SP",
     "area": "Construção Civil",
-    "habilidadesTecnicas": ["Pintura Interna/Externa", "Texturização", "Grafiato", "Envernizamento", "Massa Corrida"],
-    "softSkills": ["Pontualidade", "Organização", "Atenção aos Detalhes", "Limpeza"],
+    "habilidadesTecnicas": [
+      "Pintura Interna/Externa",
+      "Texturização",
+      "Grafiato",
+      "Envernizamento",
+      "Massa Corrida"
+    ],
+    "softSkills": [
+      "Pontualidade",
+      "Organização",
+      "Atenção aos Detalhes",
+      "Limpeza"
+    ],
     "experiencias": [
       {
         "empresa": "Autônomo",
@@ -25,7 +36,10 @@
         "descricao": "Galeria de fotos do 'antes e depois' de uma casa completa."
       }
     ],
-    "areaInteresses": ["Novas técnicas de pintura", "Decoração de Interiores"]
+    "areaInteresses": [
+      "Novas técnicas de pintura",
+      "Decoração de Interiores"
+    ]
   },
   {
     "id": 2,
@@ -35,8 +49,19 @@
     "resumo": "Especializada em ajustes finos e confecção de peças sob medida. Paixão por transformar tecidos em sonhos.",
     "localizacao": "Belo Horizonte/MG",
     "area": "Moda e Confecção",
-    "habilidadesTecnicas": ["Ajustes Finos (Festas)", "Modelagem Plana", "Confecção Sob Medida", "Bordado Manual", "Uso de Overlock"],
-    "softSkills": ["Criatividade", "Paciência", "Bom Gosto", "Atendimento ao Cliente"],
+    "habilidadesTecnicas": [
+      "Ajustes Finos (Festas)",
+      "Modelagem Plana",
+      "Confecção Sob Medida",
+      "Bordado Manual",
+      "Uso de Overlock"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Paciência",
+      "Bom Gosto",
+      "Atendimento ao Cliente"
+    ],
     "experiencias": [
       {
         "empresa": "Ateliê Fina Costura (Próprio)",
@@ -53,7 +78,10 @@
         "descricao": "Veja meu catálogo de peças prontas e agende uma visita."
       }
     ],
-    "areaInteresses": ["Moda Sustentável", "Customização (Upcycling)"]
+    "areaInteresses": [
+      "Moda Sustentável",
+      "Customização (Upcycling)"
+    ]
   },
   {
     "id": 3,
@@ -63,8 +91,19 @@
     "resumo": "Serviços elétricos com segurança e qualidade. Instalações, manutenções e reparos. Atendimento rápido.",
     "localizacao": "Salvador/BA",
     "area": "Serviços",
-    "habilidadesTecnicas": ["Instalação Elétrica (Baixa Tensão)", "Troca de Disjuntores", "Padrão de Entrada", "Instalação de Luminárias", "Manutenção Preventiva"],
-    "softSkills": ["Responsabilidade", "Segurança", "Honestidade", "Agilidade"],
+    "habilidadesTecnicas": [
+      "Instalação Elétrica (Baixa Tensão)",
+      "Troca de Disjuntores",
+      "Padrão de Entrada",
+      "Instalação de Luminárias",
+      "Manutenção Preventiva"
+    ],
+    "softSkills": [
+      "Responsabilidade",
+      "Segurança",
+      "Honestidade",
+      "Agilidade"
+    ],
     "experiencias": [
       {
         "empresa": "Autônomo",
@@ -81,7 +120,10 @@
         "descricao": "Projeto de modernização da iluminação de uma loja comercial."
       }
     ],
-    "areaInteresses": ["Automação Residencial", "Energia Solar"]
+    "areaInteresses": [
+      "Automação Residencial",
+      "Energia Solar"
+    ]
   },
   {
     "id": 4,
@@ -91,8 +133,18 @@
     "resumo": "Criação de peças de decoração e vestuário em crochê e macramê. Produtos 100% manuais e com design exclusivo.",
     "localizacao": "Recife/PE",
     "area": "Artesanato",
-    "habilidadesTecnicas": ["Crochê (Amigurumi)", "Macramê (Painéis)", "Bordado Livre", "Tingimento Natural"],
-    "softSkills": ["Criatividade", "Atenção aos Detalhes", "Paciência", "Originalidade"],
+    "habilidadesTecnicas": [
+      "Crochê (Amigurumi)",
+      "Macramê (Painéis)",
+      "Bordado Livre",
+      "Tingimento Natural"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Atenção aos Detalhes",
+      "Paciência",
+      "Originalidade"
+    ],
     "experiencias": [
       {
         "empresa": "Loja Fios e Formas (Própria)",
@@ -109,7 +161,11 @@
         "descricao": "Galeria com minhas principais criações, incluindo painéis de macramê e amigurumis."
       }
     ],
-    "areaInteresses": ["Economia Criativa", "Sustentabilidade", "Oficinas de Artesanato"]
+    "areaInteresses": [
+      "Economia Criativa",
+      "Sustentabilidade",
+      "Oficinas de Artesanato"
+    ]
   },
   {
     "id": 5,
@@ -119,8 +175,19 @@
     "resumo": "Execução e supervisão de obras, desde a fundação até o acabamento. Especialista em alvenaria e revestimentos.",
     "localizacao": "Curitiba/PR",
     "area": "Construção Civil",
-    "habilidadesTecnicas": ["Alvenaria Estrutural", "Assentamento de Porcelanato", "Reboco", "Leitura de Plantas", "Hidráulica Básica"],
-    "softSkills": ["Liderança de Equipe", "Resolução de Problemas", "Comprometimento", "Organização"],
+    "habilidadesTecnicas": [
+      "Alvenaria Estrutural",
+      "Assentamento de Porcelanato",
+      "Reboco",
+      "Leitura de Plantas",
+      "Hidráulica Básica"
+    ],
+    "softSkills": [
+      "Liderança de Equipe",
+      "Resolução de Problemas",
+      "Comprometimento",
+      "Organização"
+    ],
     "experiencias": [
       {
         "empresa": "Autônomo",
@@ -137,7 +204,10 @@
         "descricao": "Fotos das etapas da construção de uma residência de 2 pavimentos."
       }
     ],
-    "areaInteresses": ["Novos Materiais de Construção", "Segurança no Trabalho"]
+    "areaInteresses": [
+      "Novos Materiais de Construção",
+      "Segurança no Trabalho"
+    ]
   },
   {
     "id": 6,
@@ -147,8 +217,19 @@
     "resumo": "Criação de identidade visual (logotipos, paleta de cores) e materiais de marketing digital para pequenos negócios.",
     "localizacao": "Porto Alegre/RS",
     "area": "Design",
-    "habilidadesTecnicas": ["Adobe Illustrator", "Adobe Photoshop", "Canva Pro", "Identidade Visual", "Social Media Design"],
-    "softSkills": ["Comunicação", "Criatividade", "Cumprimento de Prazos", "Escuta Ativa"],
+    "habilidadesTecnicas": [
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Canva Pro",
+      "Identidade Visual",
+      "Social Media Design"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade",
+      "Cumprimento de Prazos",
+      "Escuta Ativa"
+    ],
     "experiencias": [
       {
         "empresa": "Freelancer",
@@ -165,7 +246,11 @@
         "descricao": "Alguns dos meus principais projetos de branding e social media."
       }
     ],
-    "areaInteresses": ["Branding", "Marketing Digital", "Tipografia"]
+    "areaInteresses": [
+      "Branding",
+      "Marketing Digital",
+      "Tipografia"
+    ]
   },
   {
     "id": 7,
@@ -175,8 +260,18 @@
     "resumo": "Projeto e execução de móveis sob medida para cozinhas, quartos e escritórios. Foco em acabamento de alta qualidade.",
     "localizacao": "São Paulo/SP",
     "area": "Mobiliário",
-    "habilidadesTecnicas": ["Móveis Planejados (MDF/MDP)", "Leitura de Projetos 3D", "Laqueação", "Instalação de Ferragens"],
-    "softSkills": ["Precisão", "Atenção aos Detalhes", "Planejamento", "Bom Gosto"],
+    "habilidadesTecnicas": [
+      "Móveis Planejados (MDF/MDP)",
+      "Leitura de Projetos 3D",
+      "Laqueação",
+      "Instalação de Ferragens"
+    ],
+    "softSkills": [
+      "Precisão",
+      "Atenção aos Detalhes",
+      "Planejamento",
+      "Bom Gosto"
+    ],
     "experiencias": [
       {
         "empresa": "Marcenaria Fina Arte (Próprio)",
@@ -193,7 +288,11 @@
         "descricao": "Fotos do projeto de uma cozinha completa em MDF naval."
       }
     ],
-    "areaInteresses": ["Design de Interiores", "Novas Ferragens", "Sustentabilidade (Reuso de Madeira)"]
+    "areaInteresses": [
+      "Design de Interiores",
+      "Novas Ferragens",
+      "Sustentabilidade (Reuso de Madeira)"
+    ]
   },
   {
     "id": 8,
@@ -203,8 +302,20 @@
     "resumo": "Serviços de limpeza residencial e pós-obra. Organização e eficiência para manter seu ambiente limpo e agradável.",
     "localizacao": "Rio de Janeiro/RJ",
     "area": "Serviços Domésticos",
-    "habilidadesTecnicas": ["Limpeza Pesada", "Faxina Pós-Obra", "Organização de Ambientes", "Passar Roupas", "Uso de Produtos Específicos"],
-    "softSkills": ["Confiança", "Discrição", "Eficiência", "Organização", "Pontualidade"],
+    "habilidadesTecnicas": [
+      "Limpeza Pesada",
+      "Faxina Pós-Obra",
+      "Organização de Ambientes",
+      "Passar Roupas",
+      "Uso de Produtos Específicos"
+    ],
+    "softSkills": [
+      "Confiança",
+      "Discrição",
+      "Eficiência",
+      "Organização",
+      "Pontualidade"
+    ],
     "experiencias": [
       {
         "empresa": "Autônoma",
@@ -221,7 +332,10 @@
         "descricao": "Clique para ver referências e agendar uma data para sua limpeza."
       }
     ],
-    "areaInteresses": ["Organização Residencial (Personal Organizer)", "Produtos de Limpeza Ecológicos"]
+    "areaInteresses": [
+      "Organização Residencial (Personal Organizer)",
+      "Produtos de Limpeza Ecológicos"
+    ]
   },
   {
     "id": 9,
@@ -231,8 +345,19 @@
     "resumo": "Instalação e manutenção de ar condicionado residencial e comercial. Especialista em limpeza e reparo.",
     "localizacao": "Manaus/AM",
     "area": "Serviços",
-    "habilidadesTecnicas": ["Instalação de Split", "Manutenção Preventiva", "Carga de Gás", "Limpeza de Sistema", "Reparo de Placa"],
-    "softSkills": ["Agilidade", "Honestidade", "Limpeza no Serviço", "Comunicação"],
+    "habilidadesTecnicas": [
+      "Instalação de Split",
+      "Manutenção Preventiva",
+      "Carga de Gás",
+      "Limpeza de Sistema",
+      "Reparo de Placa"
+    ],
+    "softSkills": [
+      "Agilidade",
+      "Honestidade",
+      "Limpeza no Serviço",
+      "Comunicação"
+    ],
     "experiencias": [
       {
         "empresa": "Refrigeração Norte (Próprio)",
@@ -249,7 +374,10 @@
         "descricao": "Instalação de 5 máquinas de teto em uma loja."
       }
     ],
-    "areaInteresses": ["Eficiência Energética", "Novos Gases Refrigerantes"]
+    "areaInteresses": [
+      "Eficiência Energética",
+      "Novos Gases Refrigerantes"
+    ]
   },
   {
     "id": 10,
@@ -259,8 +387,18 @@
     "resumo": "Produção artesanal de bolos de festa, doces finos e sobremesas. Foco no sabor e em ingredientes de qualidade.",
     "localizacao": "Fortaleza/CE",
     "area": "Alimentação",
-    "habilidadesTecnicas": ["Confeitaria Fina", "Bolos Decorados (Pasta Americana)", "Chocolateria", "Salgados Finos"],
-    "softSkills": ["Criatividade", "Higiene", "Atenção aos Detalhes", "Pontualidade na Entrega"],
+    "habilidadesTecnicas": [
+      "Confeitaria Fina",
+      "Bolos Decorados (Pasta Americana)",
+      "Chocolateria",
+      "Salgados Finos"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Higiene",
+      "Atenção aos Detalhes",
+      "Pontualidade na Entrega"
+    ],
     "experiencias": [
       {
         "empresa": "Doce Sabor Ateliê (Próprio)",
@@ -277,6 +415,32 @@
         "descricao": "Veja meu portfólio de bolos e faça sua encomenda direta pelo Instagram."
       }
     ],
-    "areaInteresses": ["Novas Tendências de Confeitaria", "Empreendedorismo Feminino"]
+    "areaInteresses": [
+      "Novas Tendências de Confeitaria",
+      "Empreendedorismo Feminino"
+    ]
+  },
+  {
+    "id": 11,
+    "email": "juninprei@cod.com",
+    "senha": "$2b$10$b6tnujBXy2QJlmwsMOcOzOr/ibwosO2vT01qnkttd3oRP0oBLw8E.",
+    "nome": "Carlos Junior de Almeida",
+    "cargo": "Pedreiro",
+    "resumo": "Construo casas desde minha juventude, não tenho formações, mas os anos me ensinaram o que muitos cursos não ensinam.",
+    "localizacao": "São Paulo/SP",
+    "area": "Construção Civil",
+    "habilidadesTecnicas": [
+      "Construção",
+      "Pintura",
+      "Elétrica."
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Gerenciamento de Tempo"
+    ],
+    "experiencias": [],
+    "projetos": [],
+    "areaInteresses": [],
+    "foto": "./images/default-construçãocivil.jpg"
   }
 ]

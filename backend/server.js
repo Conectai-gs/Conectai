@@ -28,11 +28,28 @@ const salvarUsuarios = (users) => {
     fs.writeFileSync(localDadosUsuarios, JSON.stringify(users, null, 2));
 }
 
-// FUNÇÃO DE LEITURA DE PROFISSIONAIS
+// FUNÇÃO DE LEITURA/ESCRITA DE PROFISSIONAIS
 const consultarProfissionais = () => {
     const data = fs.readFileSync(localDadosProfissionais, 'utf8');
     return JSON.parse(data);
-}
+};
+
+const salvarProfissionais = (profissionais) => {
+    fs.writeFileSync(localDadosProfissionais, JSON.stringify(profissionais, null, 2));
+};
+
+const getNextProfissionalId = (profissionais) => {
+    // Se o array estiver vazio, o ID começa em 1.
+    if (profissionais.length === 0) {
+        return 1;
+    }
+    
+    // Encontra o máximo ID atual entre todos os objetos
+    const maxId = profissionais.reduce((max, p) => (p.id > max ? p.id : max), 0);
+    
+    // Retorna o próximo ID sequencial
+    return maxId + 1;
+};
 
 // ROTA PARA REGISTRAR USUARIO 
 app.post('/register', async (req, res) => {
@@ -54,6 +71,53 @@ app.post('/register', async (req, res) => {
     res.status(200).json({ message: "Usuario registrado com sucesso" })
 
 })
+
+// ROTA PARA REGISTRAR DPROFISSIONAIS
+app.post('/api/profissionais/register', async (req, res) => {
+    
+    const { 
+        email, senha, nome, cargo, resumo, 
+        localizacao, area, habilidadesTecnicas, softSkills, 
+        experiencias, projetos, areaInteresses
+    } = req.body;
+
+    if (!email || !senha || !nome || !cargo || !resumo || !localizacao || !area) {
+        return res.status(400).json({ message: "Dados básicos (email, nome, cargo, resumo) são obrigatórios." });
+    }
+
+    const profissionais = consultarProfissionais();
+
+    if (profissionais.find(p => p.email === email)) {
+        return res.status(400).json({ message: "Este email já está registado como profissional." });
+    }
+
+    const hashSenha = await bcrypt.hash(senha, 10);
+    
+    const novoId = getNextProfissionalId(profissionais);
+    
+    const novoProfissional = {
+        id: novoId, 
+        email,
+        senha: hashSenha,
+        nome,
+        cargo,
+        resumo,
+        localizacao,
+        area,
+        habilidadesTecnicas: habilidadesTecnicas || [],
+        softSkills: softSkills || [],
+        experiencias: experiencias || [],
+        projetos: projetos || [],
+        areaInteresses: areaInteresses || [],
+        
+        foto: req.body.foto || `./images/default-${area.toLowerCase().replace(/\s/g, '')}.jpg` 
+    };
+
+    profissionais.push(novoProfissional);
+    salvarProfissionais(profissionais);
+
+    res.status(200).json({ message: "Profissional registado com sucesso! A sua vitrine está online." });
+});
 
 // ROTA DO LOGIN
 app.post("/login", async (req, res) => {
