@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "Carlos Oliveira",
-    "foto": "./images/carlos_oliveira.jpg",
+    "foto": "./images/carlos_oliveira.png",
     "cargo": "Pintor Profissional e Texturização",
     "resumo": "Mais de 15 anos de experiência em pinturas residenciais e comerciais. Especialista em texturas e acabamentos finos.",
     "localizacao": "Campinas/SP",
@@ -44,7 +44,7 @@
   {
     "id": 2,
     "nome": "Maria Andrade",
-    "foto": "./images/maria_andrade.jpg",
+    "foto": "./images/maria_andrade.png",
     "cargo": "Costureira e Modelista",
     "resumo": "Especializada em ajustes finos e confecção de peças sob medida. Paixão por transformar tecidos em sonhos.",
     "localizacao": "Belo Horizonte/MG",
@@ -86,7 +86,7 @@
   {
     "id": 3,
     "nome": "Rafael Souza",
-    "foto": "./images/rafael_souza.jpg",
+    "foto": "./images/rafael_souza.png",
     "cargo": "Eletricista Residencial e Predial",
     "resumo": "Serviços elétricos com segurança e qualidade. Instalações, manutenções e reparos. Atendimento rápido.",
     "localizacao": "Salvador/BA",
@@ -128,7 +128,7 @@
   {
     "id": 4,
     "nome": "Juliana Lima",
-    "foto": "./images/juliana_lima.jpg",
+    "foto": "./images/juliana_lima.png",
     "cargo": "Artesã - Crochê e Macramê",
     "resumo": "Criação de peças de decoração e vestuário em crochê e macramê. Produtos 100% manuais e com design exclusivo.",
     "localizacao": "Recife/PE",
@@ -170,7 +170,7 @@
   {
     "id": 5,
     "nome": "Fernando Martins",
-    "foto": "./images/fernando_martins.jpg",
+    "foto": "./images/fernando_martins.png",
     "cargo": "Pedreiro e Mestre de Obras",
     "resumo": "Execução e supervisão de obras, desde a fundação até o acabamento. Especialista em alvenaria e revestimentos.",
     "localizacao": "Curitiba/PR",
@@ -212,7 +212,7 @@
   {
     "id": 6,
     "nome": "Beatriz Santos",
-    "foto": "./images/beatriz_santos.jpg",
+    "foto": "./images/beatriz_santos.png",
     "cargo": "Designer Gráfica Freelancer",
     "resumo": "Criação de identidade visual (logotipos, paleta de cores) e materiais de marketing digital para pequenos negócios.",
     "localizacao": "Porto Alegre/RS",
@@ -255,7 +255,7 @@
   {
     "id": 7,
     "nome": "Ricardo Pereira",
-    "foto": "./images/ricardo_pereira.jpg",
+    "foto": "./images/ricardo_pereira.png",
     "cargo": "Marceneiro e Móveis Planejados",
     "resumo": "Projeto e execução de móveis sob medida para cozinhas, quartos e escritórios. Foco em acabamento de alta qualidade.",
     "localizacao": "São Paulo/SP",
@@ -297,7 +297,7 @@
   {
     "id": 8,
     "nome": "Patrícia Almeida",
-    "foto": "./images/patricia_almeida.jpg",
+    "foto": "./images/patricia_almeida.png",
     "cargo": "Diarista / Faxineira",
     "resumo": "Serviços de limpeza residencial e pós-obra. Organização e eficiência para manter seu ambiente limpo e agradável.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -340,7 +340,7 @@
   {
     "id": 9,
     "nome": "Lucas Gomes",
-    "foto": "./images/lucas_gomes.jpg",
+    "foto": "./images/lucas_gomes.png",
     "cargo": "Técnico de Refrigeração",
     "resumo": "Instalação e manutenção de ar condicionado residencial e comercial. Especialista em limpeza e reparo.",
     "localizacao": "Manaus/AM",
@@ -382,7 +382,7 @@
   {
     "id": 10,
     "nome": "Camila Bastos",
-    "foto": "./images/camila_bastos.jpg",
+    "foto": "./images/camila_bastos.png",
     "cargo": "Confeiteira - Bolos e Doces",
     "resumo": "Produção artesanal de bolos de festa, doces finos e sobremesas. Foco no sabor e em ingredientes de qualidade.",
     "localizacao": "Fortaleza/CE",
@@ -422,25 +422,2002 @@
   },
   {
     "id": 11,
-    "email": "juninprei@cod.com",
-    "senha": "$2b$10$b6tnujBXy2QJlmwsMOcOzOr/ibwosO2vT01qnkttd3oRP0oBLw8E.",
-    "nome": "Carlos Junior de Almeida",
-    "cargo": "Pedreiro",
-    "resumo": "Construo casas desde minha juventude, não tenho formações, mas os anos me ensinaram o que muitos cursos não ensinam.",
-    "localizacao": "São Paulo/SP",
-    "area": "Construção Civil",
+    "nome": "Karla Santos",
+    "foto": "./images/karla_santos.png",
+    "cargo": "Carpinteira",
+    "resumo": "Carpinteira com atuação em João Pessoa/PB. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "João Pessoa/PB",
+    "area": "Mobiliário",
     "habilidadesTecnicas": [
-      "Construção",
-      "Pintura",
-      "Elétrica."
+      "Acabamento",
+      "Móveis Planejados",
+      "Instalação de Ferragens"
+    ],
+    "softSkills": [
+      "Flexibilidade",
+      "Honestidade",
+      "Liderança",
+      "Boa Escuta"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Carpinteiro",
+        "inicio": "2011-09",
+        "fim": "atual",
+        "descricao": "Atuação como carpinteiro em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Carpinteiro - Projeto A",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do carpinteiro."
+      }
+    ],
+    "areaInteresses": [
+      "Design de Interiores",
+      "Novas técnicas"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Quésia Santos",
+    "foto": "./images/quésia_santos.png",
+    "cargo": "Acabador de Móveis",
+    "resumo": "Acabador de Móveis com atuação em Belo Horizonte/MG. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Mobiliário",
+    "habilidadesTecnicas": [
+      "Móveis Planejados",
+      "Laqueação",
+      "Projeto 3D"
     ],
     "softSkills": [
       "Comunicação",
-      "Gerenciamento de Tempo"
+      "Empatia",
+      "Responsabilidade",
+      "Organização"
     ],
-    "experiencias": [],
-    "projetos": [],
-    "areaInteresses": [],
-    "foto": "./images/default-construçãocivil.jpg"
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Acabador de Móveis",
+        "inicio": "2017-12",
+        "fim": "atual",
+        "descricao": "Atuação como acabador de móveis em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Acabador de Móveis - Projeto D",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do acabador de móveis."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Automação"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Quésia Almeida",
+    "foto": "./images/quésia_almeida.png",
+    "cargo": "Fotógrafo(a) Comercial",
+    "resumo": "Fotógrafo(a) Comercial com atuação em São Paulo/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São Paulo/SP",
+    "area": "Fotografia",
+    "habilidadesTecnicas": [
+      "Edição de Imagens",
+      "Foto de Produto",
+      "Ensaio Fotográfico"
+    ],
+    "softSkills": [
+      "Honestidade",
+      "Trabalho em Equipe",
+      "Atenção aos Detalhes",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 47",
+        "cargo": "Fotógrafo(a) Comercial",
+        "inicio": "2015-05",
+        "fim": "atual",
+        "descricao": "Atuação como fotógrafo(a) comercial em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Fotógrafo(a) Comercial - Projeto B",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Galeria de trabalhos e referências do fotógrafo(a) comercial."
+      }
+    ],
+    "areaInteresses": [
+      "Design de Interiores",
+      "Eficiência Energética"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Carlos Pereira",
+    "foto": "./images/carlos_pereira.png",
+    "cargo": "Paisagista",
+    "resumo": "Paisagista com atuação em Salvador/BA. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Salvador/BA",
+    "area": "Jardinagem e Paisagismo",
+    "habilidadesTecnicas": [
+      "Design de Vasos",
+      "Instalação de Irrigação",
+      "Manutenção de Jardins"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Flexibilidade",
+      "Liderança",
+      "Trabalho em Equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 61",
+        "cargo": "Paisagista",
+        "inicio": "2015-06",
+        "fim": "atual",
+        "descricao": "Atuação como paisagista em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Paisagista - Projeto A",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do paisagista."
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Nicolas Barbosa",
+    "foto": "./images/nicolas_barbosa.png",
+    "cargo": "Designer de Móveis",
+    "resumo": "Designer de Móveis com atuação em Rio de Janeiro/RJ. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Mobiliário",
+    "habilidadesTecnicas": [
+      "Marcenaria Fina",
+      "Móveis Planejados",
+      "Acabamento"
+    ],
+    "softSkills": [
+      "Pontualidade",
+      "Empatia",
+      "Flexibilidade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Designer de Móveis",
+        "inicio": "2014-10",
+        "fim": "atual",
+        "descricao": "Atuação como designer de móveis em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Designer de Móveis - Projeto B",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do designer de móveis."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Eficiência Energética"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Júlia Barbosa",
+    "foto": "./images/júlia_barbosa.png",
+    "cargo": "Manicure",
+    "resumo": "Manicure com atuação em Fortaleza/CE. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Beleza e Estética",
+    "habilidadesTecnicas": [
+      "Barbearia",
+      "Manicure",
+      "Maquiagem Profissional"
+    ],
+    "softSkills": [
+      "Responsabilidade",
+      "Liderança",
+      "Criatividade",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Manicure",
+        "inicio": "2020-05",
+        "fim": "atual",
+        "descricao": "Atuação como manicure em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Manicure - Projeto E",
+        "link": "https://www.elo7.com.br/exemplo",
+        "descricao": "Galeria de trabalhos e referências do manicure."
+      }
+    ],
+    "areaInteresses": [
+      "Empreendedorismo",
+      "Marketing Local"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Guilherme Silva",
+    "foto": "./images/guilherme_silva.png",
+    "cargo": "Carpinteiro",
+    "resumo": "Carpinteiro com atuação em Florianópolis/SC. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Mobiliário",
+    "habilidadesTecnicas": [
+      "Acabamento",
+      "Instalação de Ferragens",
+      "Projeto 3D"
+    ],
+    "softSkills": [
+      "Pontualidade",
+      "Proatividade",
+      "Honestidade",
+      "Boa Escuta"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 122",
+        "cargo": "Carpinteiro",
+        "inicio": "2016-09",
+        "fim": "atual",
+        "descricao": "Atuação como carpinteiro em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Carpinteiro - Projeto C",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do carpinteiro."
+      }
+    ],
+    "areaInteresses": [
+      "Novas técnicas",
+      "Marketing Local"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Daniela Pereira",
+    "foto": "./images/daniela_pereira.png",
+    "cargo": "Esteticista",
+    "resumo": "Esteticista com atuação em Salvador/BA. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Salvador/BA",
+    "area": "Beleza e Estética",
+    "habilidadesTecnicas": [
+      "Corte e Penteado",
+      "Designer de Sobrancelhas",
+      "Manicure"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Atenção aos Detalhes",
+      "Disciplina",
+      "Boa Escuta"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Esteticista",
+        "inicio": "2018-02",
+        "fim": "atual",
+        "descricao": "Atuação como esteticista em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Esteticista - Projeto E",
+        "link": "https://www.elo7.com.br/exemplo",
+        "descricao": "Galeria de trabalhos e referências do esteticista."
+      }
+    ],
+    "areaInteresses": [
+      "Marketing Local",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Olívia Souza",
+    "foto": "./images/olívia_souza.png",
+    "cargo": "Encanador",
+    "resumo": "Encanador com atuação em João Pessoa/PB. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "João Pessoa/PB",
+    "area": "Construção Civil",
+    "habilidadesTecnicas": [
+      "Assentamento de Cerâmica",
+      "Alvenaria Estrutural",
+      "Impermeabilização"
+    ],
+    "softSkills": [
+      "Paciência",
+      "Comunicação",
+      "Flexibilidade",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Encanador",
+        "inicio": "2017-07",
+        "fim": "atual",
+        "descricao": "Atuação como encanador em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Encanador - Projeto C",
+        "link": "https://www.instagram.com/exemplo",
+        "descricao": "Galeria de trabalhos e referências do encanador."
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Economia Criativa"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Quésia Costa",
+    "foto": "./images/quésia_costa.png",
+    "cargo": "Chocolatier",
+    "resumo": "Chocolatier com atuação em Maceió/AL. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Maceió/AL",
+    "area": "Alimentação",
+    "habilidadesTecnicas": [
+      "Salgados Finos",
+      "Confeitaria Fina",
+      "Chocolateria"
+    ],
+    "softSkills": [
+      "Boa Escuta",
+      "Proatividade",
+      "Liderança",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Chocolatier",
+        "inicio": "2009-07",
+        "fim": "atual",
+        "descricao": "Atuação como chocolatier em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Chocolatier - Projeto D",
+        "link": "https://www.elo7.com.br/exemplo",
+        "descricao": "Galeria de trabalhos e referências do chocolatier."
+      }
+    ],
+    "areaInteresses": [
+      "Marketing Local",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Camila Lima",
+    "foto": "./images/camila_lima.png",
+    "cargo": "Ceramista",
+    "resumo": "Ceramista com atuação em Belém/PA. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Belém/PA",
+    "area": "Artesanato",
+    "habilidadesTecnicas": [
+      "Crochê",
+      "Bordado",
+      "Cerâmica"
+    ],
+    "softSkills": [
+      "Organização",
+      "Empatia",
+      "Liderança",
+      "Flexibilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Ceramista",
+        "inicio": "2007-11",
+        "fim": "atual",
+        "descricao": "Atuação como ceramista em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Ceramista - Projeto E",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Galeria de trabalhos e referências do ceramista."
+      }
+    ],
+    "areaInteresses": [
+      "Marketing Local",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Hugo Oliveira",
+    "foto": "./images/hugo_oliveira.png",
+    "cargo": "Diretor(a) de Fotografia",
+    "resumo": "Diretor(a) de Fotografia com atuação em Maceió/AL. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Maceió/AL",
+    "area": "Fotografia",
+    "habilidadesTecnicas": [
+      "Edição de Vídeo",
+      "Fotografia de Eventos",
+      "Ensaio Fotográfico"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Atenção aos Detalhes",
+      "Responsabilidade",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 41",
+        "cargo": "Diretor(a) de Fotografia",
+        "inicio": "2007-07",
+        "fim": "atual",
+        "descricao": "Atuação como diretor(a) de fotografia em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Diretor(a) de Fotografia - Projeto A",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do diretor(a) de fotografia."
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Marketing Local"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Quitéria Araújo",
+    "foto": "./images/quitéria_araújo.png",
+    "cargo": "Diretor de Arte",
+    "resumo": "Diretor de Arte com atuação em São Paulo/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Photoshop",
+      "Branding",
+      "Design Social Media"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Pontualidade",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 27",
+        "cargo": "Diretor de Arte",
+        "inicio": "2017-01",
+        "fim": "atual",
+        "descricao": "Atuação como diretor de arte em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Diretor de Arte - Projeto D",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do diretor de arte."
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Olívia Mendes",
+    "foto": "./images/olívia_mendes.png",
+    "cargo": "Confeiteira",
+    "resumo": "Confeiteira com atuação em Curitiba/PR. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Curitiba/PR",
+    "area": "Alimentação",
+    "habilidadesTecnicas": [
+      "Salgados Finos",
+      "Bolos Decorados",
+      "Doces Finos"
+    ],
+    "softSkills": [
+      "Atenção aos Detalhes",
+      "Paciência",
+      "Empatia",
+      "Flexibilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 29",
+        "cargo": "Confeiteira",
+        "inicio": "2019-06",
+        "fim": "atual",
+        "descricao": "Atuação como confeiteira em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Confeiteira - Projeto B",
+        "link": "https://api.whatsapp.com/send?phone=55229924249608",
+        "descricao": "Galeria de trabalhos e referências do confeiteira."
+      }
+    ],
+    "areaInteresses": [
+      "Design de Interiores",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Norberto Rocha",
+    "foto": "./images/norberto_rocha.png",
+    "cargo": "Fotógrafo(a) de Eventos",
+    "resumo": "Fotógrafo(a) de Eventos com atuação em São Paulo/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São Paulo/SP",
+    "area": "Fotografia",
+    "habilidadesTecnicas": [
+      "Foto de Produto",
+      "Ensaio Fotográfico",
+      "Fotografia de Eventos"
+    ],
+    "softSkills": [
+      "Trabalho em Equipe",
+      "Responsabilidade",
+      "Organização",
+      "Paciência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Fotógrafo(a) de Eventos",
+        "inicio": "2005-06",
+        "fim": "atual",
+        "descricao": "Atuação como fotógrafo(a) de eventos em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Fotógrafo(a) de Eventos - Projeto A",
+        "link": "https://www.elo7.com.br/exemplo",
+        "descricao": "Galeria de trabalhos e referências do fotógrafo(a) de eventos."
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Zara Nogueira",
+    "foto": "./images/zara_nogueira.png",
+    "cargo": "Barbeiro(a)",
+    "resumo": "Barbeiro(a) com atuação em Campinas/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Campinas/SP",
+    "area": "Beleza e Estética",
+    "habilidadesTecnicas": [
+      "Barbearia",
+      "Corte e Penteado",
+      "Maquiagem Profissional"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Trabalho em Equipe",
+      "Disciplina",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 80",
+        "cargo": "Barbeiro(a)",
+        "inicio": "2011-06",
+        "fim": "atual",
+        "descricao": "Atuação como barbeiro(a) em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Barbeiro(a) - Projeto E",
+        "link": "https://api.whatsapp.com/send?phone=55499990276068",
+        "descricao": "Galeria de trabalhos e referências do barbeiro(a)."
+      }
+    ],
+    "areaInteresses": [
+      "Marketing Local",
+      "Automação"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Guilherme Gomes",
+    "foto": "./images/guilherme_gomes.png",
+    "cargo": "Instalador",
+    "resumo": "Instalador com atuação em Curitiba/PR. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Curitiba/PR",
+    "area": "Mobiliário",
+    "habilidadesTecnicas": [
+      "Móveis Planejados",
+      "Acabamento",
+      "Projeto 3D"
+    ],
+    "softSkills": [
+      "Trabalho em Equipe",
+      "Pontualidade",
+      "Disciplina",
+      "Paciência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Instalador",
+        "inicio": "2017-11",
+        "fim": "atual",
+        "descricao": "Atuação como instalador em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Instalador - Projeto D",
+        "link": "https://www.instagram.com/exemplo",
+        "descricao": "Galeria de trabalhos e referências do instalador."
+      }
+    ],
+    "areaInteresses": [
+      "Eficiência Energética",
+      "Automação"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Júlia Carvalho",
+    "foto": "./images/júlia_carvalho.png",
+    "cargo": "Carpinteiro",
+    "resumo": "Carpinteiro com atuação em Belém/PA. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Belém/PA",
+    "area": "Mobiliário",
+    "habilidadesTecnicas": [
+      "Acabamento",
+      "Instalação de Ferragens",
+      "Projeto 3D"
+    ],
+    "softSkills": [
+      "Organização",
+      "Empatia",
+      "Liderança",
+      "Responsabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 218",
+        "cargo": "Carpinteiro",
+        "inicio": "2008-05",
+        "fim": "atual",
+        "descricao": "Atuação como carpinteiro em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Carpinteiro - Projeto A",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do carpinteiro."
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Vanessa Moreira",
+    "foto": "./images/vanessa_moreira.png",
+    "cargo": "Poda Especialista",
+    "resumo": "Poda Especialista com atuação em São Paulo/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São Paulo/SP",
+    "area": "Jardinagem e Paisagismo",
+    "habilidadesTecnicas": [
+      "Projeto Paisagismo",
+      "Poda de Árvores",
+      "Manutenção de Jardins"
+    ],
+    "softSkills": [
+      "Trabalho em Equipe",
+      "Proatividade",
+      "Organização",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 116",
+        "cargo": "Poda Especialista",
+        "inicio": "2014-03",
+        "fim": "atual",
+        "descricao": "Atuação como poda especialista em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Poda Especialista - Projeto D",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do poda especialista."
+      }
+    ],
+    "areaInteresses": [
+      "Novas técnicas",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Yuri Moreira",
+    "foto": "./images/yuri_moreira.png",
+    "cargo": "Cake Designer",
+    "resumo": "Cake Designer com atuação em Natal/RN. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Natal/RN",
+    "area": "Alimentação",
+    "habilidadesTecnicas": [
+      "Doces Finos",
+      "Bolos Decorados",
+      "Catering"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Atenção aos Detalhes",
+      "Criatividade",
+      "Honestidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 88",
+        "cargo": "Cake Designer",
+        "inicio": "2006-09",
+        "fim": "atual",
+        "descricao": "Atuação como cake designer em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Cake Designer - Projeto C",
+        "link": "https://api.whatsapp.com/send?phone=55199900059031",
+        "descricao": "Galeria de trabalhos e referências do cake designer."
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Automação"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Eduardo Araújo",
+    "foto": "./images/eduardo_araújo.png",
+    "cargo": "Técnico de Refrigeração",
+    "resumo": "Técnico de Refrigeração com atuação em São José dos Campos/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São José dos Campos/SP",
+    "area": "Serviços",
+    "habilidadesTecnicas": [
+      "Manutenção Preventiva",
+      "Refrigeração",
+      "Instalação de Luminárias"
+    ],
+    "softSkills": [
+      "Pontualidade",
+      "Boa Escuta",
+      "Criatividade",
+      "Disciplina"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 22",
+        "cargo": "Técnico de Refrigeração",
+        "inicio": "2008-10",
+        "fim": "atual",
+        "descricao": "Atuação como técnico de refrigeração em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Técnico de Refrigeração - Projeto C",
+        "link": "https://api.whatsapp.com/send?phone=55429966237157",
+        "descricao": "Galeria de trabalhos e referências do técnico de refrigeração."
+      }
+    ],
+    "areaInteresses": [
+      "Marketing Local",
+      "Novas técnicas"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Samara Ribeiro",
+    "foto": "./images/samara_ribeiro.png",
+    "cargo": "Pedreiro",
+    "resumo": "Pedreiro com atuação em Salvador/BA. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Salvador/BA",
+    "area": "Construção Civil",
+    "habilidadesTecnicas": [
+      "Leitura de Plantas",
+      "Impermeabilização",
+      "Instalação de Porcelanato"
+    ],
+    "softSkills": [
+      "Atenção aos Detalhes",
+      "Responsabilidade",
+      "Pontualidade",
+      "Paciência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Pedreiro",
+        "inicio": "2006-03",
+        "fim": "atual",
+        "descricao": "Atuação como pedreiro em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pedreiro - Projeto E",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Galeria de trabalhos e referências do pedreiro."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Zara Ribeiro",
+    "foto": "./images/zara_ribeiro.png",
+    "cargo": "Diretor(a) de Fotografia",
+    "resumo": "Diretor(a) de Fotografia com atuação em Recife/PE. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Recife/PE",
+    "area": "Fotografia",
+    "habilidadesTecnicas": [
+      "Foto de Produto",
+      "Edição de Vídeo",
+      "Ensaio Fotográfico"
+    ],
+    "softSkills": [
+      "Atenção aos Detalhes",
+      "Honestidade",
+      "Organização",
+      "Trabalho em Equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Diretor(a) de Fotografia",
+        "inicio": "2020-04",
+        "fim": "atual",
+        "descricao": "Atuação como diretor(a) de fotografia em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Diretor(a) de Fotografia - Projeto B",
+        "link": "https://api.whatsapp.com/send?phone=55659960661593",
+        "descricao": "Galeria de trabalhos e referências do diretor(a) de fotografia."
+      }
+    ],
+    "areaInteresses": [
+      "Marketing Local",
+      "Automação"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Samara Carvalho",
+    "foto": "./images/samara_carvalho.png",
+    "cargo": "Maquiador(a)",
+    "resumo": "Maquiador(a) com atuação em Vitória/ES. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Vitória/ES",
+    "area": "Beleza e Estética",
+    "habilidadesTecnicas": [
+      "Barbearia",
+      "Corte e Penteado",
+      "Maquiagem Profissional"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Responsabilidade",
+      "Honestidade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Maquiador(a)",
+        "inicio": "2009-10",
+        "fim": "atual",
+        "descricao": "Atuação como maquiador(a) em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Maquiador(a) - Projeto D",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do maquiador(a)."
+      }
+    ],
+    "areaInteresses": [
+      "Empreendedorismo",
+      "Novas técnicas"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Júlia Santos",
+    "foto": "./images/júlia_santos.png",
+    "cargo": "Modelista",
+    "resumo": "Modelista com atuação em Belém/PA. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Belém/PA",
+    "area": "Moda e Confecção",
+    "habilidadesTecnicas": [
+      "Upcycling",
+      "Costura Sob Medida",
+      "Modelagem Plana"
+    ],
+    "softSkills": [
+      "Trabalho em Equipe",
+      "Empatia",
+      "Flexibilidade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Modelista",
+        "inicio": "2007-03",
+        "fim": "atual",
+        "descricao": "Atuação como modelista em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelista - Projeto B",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do modelista."
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Economia Criativa"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Diego Almeida",
+    "foto": "./images/diego_almeida.png",
+    "cargo": "Azulejista",
+    "resumo": "Azulejista com atuação em Vitória/ES. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Vitória/ES",
+    "area": "Construção Civil",
+    "habilidadesTecnicas": [
+      "Assentamento de Cerâmica",
+      "Alvenaria Estrutural",
+      "Reboco"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Honestidade",
+      "Trabalho em Equipe",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Azulejista",
+        "inicio": "2014-04",
+        "fim": "atual",
+        "descricao": "Atuação como azulejista em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Azulejista - Projeto B",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do azulejista."
+      }
+    ],
+    "areaInteresses": [
+      "Eficiência Energética",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Norberto Mendes",
+    "foto": "./images/norberto_mendes.png",
+    "cargo": "Técnico de Refrigeração",
+    "resumo": "Técnico de Refrigeração com atuação em Curitiba/PR. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Curitiba/PR",
+    "area": "Serviços",
+    "habilidadesTecnicas": [
+      "Instalação de Luminárias",
+      "Manutenção Preventiva",
+      "Hidráulica Básica"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Flexibilidade",
+      "Organização",
+      "Paciência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Técnico de Refrigeração",
+        "inicio": "2007-01",
+        "fim": "atual",
+        "descricao": "Atuação como técnico de refrigeração em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Técnico de Refrigeração - Projeto E",
+        "link": "https://www.elo7.com.br/exemplo",
+        "descricao": "Galeria de trabalhos e referências do técnico de refrigeração."
+      }
+    ],
+    "areaInteresses": [
+      "Empreendedorismo",
+      "Design de Interiores"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Camila Nogueira",
+    "foto": "./images/camila_nogueira.png",
+    "cargo": "Cuidador(a) de Idosos",
+    "resumo": "Cuidador(a) de Idosos com atuação em São José dos Campos/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São José dos Campos/SP",
+    "area": "Serviços Domésticos",
+    "habilidadesTecnicas": [
+      "Faxina Pós-Obra",
+      "Limpeza Pesada",
+      "Lavagem de Estofados"
+    ],
+    "softSkills": [
+      "Atenção aos Detalhes",
+      "Comunicação",
+      "Trabalho em Equipe",
+      "Flexibilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 155",
+        "cargo": "Cuidador(a) de Idosos",
+        "inicio": "2020-04",
+        "fim": "atual",
+        "descricao": "Atuação como cuidador(a) de idosos em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Cuidador(a) de Idosos - Projeto C",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do cuidador(a) de idosos."
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Design de Interiores"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Yuri Martins",
+    "foto": "./images/yuri_martins.png",
+    "cargo": "Técnico de Refrigeração",
+    "resumo": "Técnico de Refrigeração com atuação em Vitória/ES. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Vitória/ES",
+    "area": "Serviços",
+    "habilidadesTecnicas": [
+      "Refrigeração",
+      "Manutenção Preventiva",
+      "Hidráulica Básica"
+    ],
+    "softSkills": [
+      "Boa Escuta",
+      "Honestidade",
+      "Organização",
+      "Pontualidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 64",
+        "cargo": "Técnico de Refrigeração",
+        "inicio": "2014-12",
+        "fim": "atual",
+        "descricao": "Atuação como técnico de refrigeração em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Técnico de Refrigeração - Projeto C",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do técnico de refrigeração."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Automação"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Olívia Santos",
+    "foto": "./images/olívia_santos.png",
+    "cargo": "Assentador de Porcelanato",
+    "resumo": "Assentador de Porcelanato com atuação em Natal/RN. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Natal/RN",
+    "area": "Construção Civil",
+    "habilidadesTecnicas": [
+      "Instalação de Porcelanato",
+      "Alvenaria Estrutural",
+      "Impermeabilização"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Pontualidade",
+      "Honestidade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Assentador de Porcelanato",
+        "inicio": "2015-04",
+        "fim": "atual",
+        "descricao": "Atuação como assentador de porcelanato em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Assentador de Porcelanato - Projeto A",
+        "link": "https://www.instagram.com/exemplo",
+        "descricao": "Galeria de trabalhos e referências do assentador de porcelanato."
+      }
+    ],
+    "areaInteresses": [
+      "Empreendedorismo",
+      "Eficiência Energética"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Wagner Barbosa",
+    "foto": "./images/wagner_barbosa.png",
+    "cargo": "Fotógrafo(a) de Eventos",
+    "resumo": "Fotógrafo(a) de Eventos com atuação em Campinas/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Campinas/SP",
+    "area": "Fotografia",
+    "habilidadesTecnicas": [
+      "Direção de Fotografia",
+      "Edição de Imagens",
+      "Ensaio Fotográfico"
+    ],
+    "softSkills": [
+      "Honestidade",
+      "Flexibilidade",
+      "Boa Escuta",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Fotógrafo(a) de Eventos",
+        "inicio": "2006-11",
+        "fim": "atual",
+        "descricao": "Atuação como fotógrafo(a) de eventos em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Fotógrafo(a) de Eventos - Projeto E",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Galeria de trabalhos e referências do fotógrafo(a) de eventos."
+      }
+    ],
+    "areaInteresses": [
+      "Empreendedorismo",
+      "Design de Interiores"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Paula Lima",
+    "foto": "./images/paula_lima.png",
+    "cargo": "Diarista",
+    "resumo": "Diarista com atuação em Campinas/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Campinas/SP",
+    "area": "Serviços Domésticos",
+    "habilidadesTecnicas": [
+      "Limpeza Pesada",
+      "Uso de Produtos Ecológicos",
+      "Organização Residencial"
+    ],
+    "softSkills": [
+      "Flexibilidade",
+      "Pontualidade",
+      "Trabalho em Equipe",
+      "Disciplina"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 2",
+        "cargo": "Diarista",
+        "inicio": "2019-01",
+        "fim": "atual",
+        "descricao": "Atuação como diarista em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Diarista - Projeto A",
+        "link": "https://api.whatsapp.com/send?phone=55639906077081",
+        "descricao": "Galeria de trabalhos e referências do diarista."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Olívia Rocha",
+    "foto": "./images/olívia_rocha.png",
+    "cargo": "Cabeleireiro(a)",
+    "resumo": "Cabeleireiro(a) com atuação em Vitória/ES. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Vitória/ES",
+    "area": "Beleza e Estética",
+    "habilidadesTecnicas": [
+      "Colorimetria",
+      "Corte e Penteado",
+      "Manicure"
+    ],
+    "softSkills": [
+      "Disciplina",
+      "Paciência",
+      "Liderança",
+      "Pontualidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Cabeleireiro(a)",
+        "inicio": "2005-06",
+        "fim": "atual",
+        "descricao": "Atuação como cabeleireiro(a) em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Cabeleireiro(a) - Projeto A",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do cabeleireiro(a)."
+      }
+    ],
+    "areaInteresses": [
+      "Novas técnicas",
+      "Design de Interiores"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Ulysses Almeida",
+    "foto": "./images/ulysses_almeida.png",
+    "cargo": "Jardineiro(a)",
+    "resumo": "Jardineiro(a) com atuação em Curitiba/PR. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Curitiba/PR",
+    "area": "Jardinagem e Paisagismo",
+    "habilidadesTecnicas": [
+      "Instalação de Irrigação",
+      "Poda de Árvores",
+      "Design de Vasos"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Organização",
+      "Proatividade",
+      "Boa Escuta"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Jardineiro(a)",
+        "inicio": "2017-03",
+        "fim": "atual",
+        "descricao": "Atuação como jardineiro(a) em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Jardineiro(a) - Projeto E",
+        "link": "https://www.instagram.com/exemplo",
+        "descricao": "Galeria de trabalhos e referências do jardineiro(a)."
+      }
+    ],
+    "areaInteresses": [
+      "Marketing Local",
+      "Eficiência Energética"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Marta Lima",
+    "foto": "./images/marta_lima.png",
+    "cargo": "Modelista",
+    "resumo": "Modelista com atuação em Natal/RN. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Natal/RN",
+    "area": "Moda e Confecção",
+    "habilidadesTecnicas": [
+      "Upcycling",
+      "Bordado Manual",
+      "Ajustes Finos"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Pontualidade",
+      "Paciência",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 118",
+        "cargo": "Modelista",
+        "inicio": "2013-02",
+        "fim": "atual",
+        "descricao": "Atuação como modelista em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelista - Projeto E",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do modelista."
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Marketing Local"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Norberto Freitas",
+    "foto": "./images/norberto_freitas.png",
+    "cargo": "Têxtil Manual",
+    "resumo": "Têxtil Manual com atuação em Vitória/ES. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Vitória/ES",
+    "area": "Artesanato",
+    "habilidadesTecnicas": [
+      "Cerâmica",
+      "Macramê",
+      "Bordado"
+    ],
+    "softSkills": [
+      "Responsabilidade",
+      "Liderança",
+      "Honestidade",
+      "Pontualidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Têxtil Manual",
+        "inicio": "2011-05",
+        "fim": "atual",
+        "descricao": "Atuação como têxtil manual em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Têxtil Manual - Projeto E",
+        "link": "https://www.instagram.com/exemplo",
+        "descricao": "Galeria de trabalhos e referências do têxtil manual."
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Marketing Local"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Marta Nogueira",
+    "foto": "./images/marta_nogueira.png",
+    "cargo": "Motion Designer",
+    "resumo": "Motion Designer com atuação em Belo Horizonte/MG. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Illustrator",
+      "Tipografia",
+      "Branding"
+    ],
+    "softSkills": [
+      "Trabalho em Equipe",
+      "Comunicação",
+      "Organização",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 172",
+        "cargo": "Motion Designer",
+        "inicio": "2009-01",
+        "fim": "atual",
+        "descricao": "Atuação como motion designer em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Motion Designer - Projeto C",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Galeria de trabalhos e referências do motion designer."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Marketing Local"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Xavier Araújo",
+    "foto": "./images/xavier_araújo.png",
+    "cargo": "Poda Especialista",
+    "resumo": "Poda Especialista com atuação em Belém/PA. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Belém/PA",
+    "area": "Jardinagem e Paisagismo",
+    "habilidadesTecnicas": [
+      "Poda Ornamental",
+      "Instalação de Irrigação",
+      "Projeto Paisagismo"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Honestidade",
+      "Empatia",
+      "Disciplina"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 98",
+        "cargo": "Poda Especialista",
+        "inicio": "2017-01",
+        "fim": "atual",
+        "descricao": "Atuação como poda especialista em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Poda Especialista - Projeto E",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Galeria de trabalhos e referências do poda especialista."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Yuri Ribeiro",
+    "foto": "./images/yuri_ribeiro.png",
+    "cargo": "Cozinheiro(a) de Eventos",
+    "resumo": "Cozinheiro(a) de Eventos com atuação em São Paulo/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São Paulo/SP",
+    "area": "Alimentação",
+    "habilidadesTecnicas": [
+      "Doces Finos",
+      "Catering",
+      "Confeitaria Fina"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Responsabilidade",
+      "Boa Escuta",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Cozinheiro(a) de Eventos",
+        "inicio": "2020-08",
+        "fim": "atual",
+        "descricao": "Atuação como cozinheiro(a) de eventos em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Cozinheiro(a) de Eventos - Projeto A",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do cozinheiro(a) de eventos."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Novas técnicas"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Samara Freitas",
+    "foto": "./images/samara_freitas.png",
+    "cargo": "Chocolatier",
+    "resumo": "Chocolatier com atuação em Florianópolis/SC. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Alimentação",
+    "habilidadesTecnicas": [
+      "Confeitaria Fina",
+      "Bolos Decorados",
+      "Doces Finos"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Proatividade",
+      "Honestidade",
+      "Disciplina"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 212",
+        "cargo": "Chocolatier",
+        "inicio": "2020-10",
+        "fim": "atual",
+        "descricao": "Atuação como chocolatier em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Chocolatier - Projeto C",
+        "link": "https://www.elo7.com.br/exemplo",
+        "descricao": "Galeria de trabalhos e referências do chocolatier."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Design de Interiores"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Wagner Rocha",
+    "foto": "./images/wagner_rocha.png",
+    "cargo": "Produtor(a) de Conteúdo",
+    "resumo": "Produtor(a) de Conteúdo com atuação em Belo Horizonte/MG. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Fotografia",
+    "habilidadesTecnicas": [
+      "Foto de Produto",
+      "Direção de Fotografia",
+      "Edição de Vídeo"
+    ],
+    "softSkills": [
+      "Boa Escuta",
+      "Honestidade",
+      "Responsabilidade",
+      "Pontualidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 270",
+        "cargo": "Produtor(a) de Conteúdo",
+        "inicio": "2005-05",
+        "fim": "atual",
+        "descricao": "Atuação como produtor(a) de conteúdo em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Produtor(a) de Conteúdo - Projeto A",
+        "link": "https://api.whatsapp.com/send?phone=55849919743141",
+        "descricao": "Galeria de trabalhos e referências do produtor(a) de conteúdo."
+      }
+    ],
+    "areaInteresses": [
+      "Marketing Local",
+      "Design de Interiores"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Zara Barbosa",
+    "foto": "./images/zara_barbosa.png",
+    "cargo": "Organizador(a) Residencial",
+    "resumo": "Organizador(a) Residencial com atuação em São José dos Campos/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São José dos Campos/SP",
+    "area": "Serviços Domésticos",
+    "habilidadesTecnicas": [
+      "Faxina Pós-Obra",
+      "Lavagem de Estofados",
+      "Organização Residencial"
+    ],
+    "softSkills": [
+      "Paciência",
+      "Disciplina",
+      "Criatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Organizador(a) Residencial",
+        "inicio": "2013-05",
+        "fim": "atual",
+        "descricao": "Atuação como organizador(a) residencial em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Organizador(a) Residencial - Projeto A",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Galeria de trabalhos e referências do organizador(a) residencial."
+      }
+    ],
+    "areaInteresses": [
+      "Novas técnicas",
+      "Automação"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Rafael Rocha",
+    "foto": "./images/rafael_rocha.png",
+    "cargo": "Assentador de Porcelanato",
+    "resumo": "Assentador de Porcelanato com atuação em São José dos Campos/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São José dos Campos/SP",
+    "area": "Construção Civil",
+    "habilidadesTecnicas": [
+      "Leitura de Plantas",
+      "Instalação de Porcelanato",
+      "Assentamento de Cerâmica"
+    ],
+    "softSkills": [
+      "Pontualidade",
+      "Comunicação",
+      "Liderança",
+      "Responsabilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 66",
+        "cargo": "Assentador de Porcelanato",
+        "inicio": "2007-10",
+        "fim": "atual",
+        "descricao": "Atuação como assentador de porcelanato em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Assentador de Porcelanato - Projeto B",
+        "link": "https://www.facebook.com/exemplo/fotos",
+        "descricao": "Galeria de trabalhos e referências do assentador de porcelanato."
+      }
+    ],
+    "areaInteresses": [
+      "Empreendedorismo",
+      "Novas técnicas"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Ana Lima",
+    "foto": "./images/ana_lima.png",
+    "cargo": "Diretor de Arte",
+    "resumo": "Diretor de Arte com atuação em Florianópolis/SC. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Branding",
+      "Photoshop",
+      "Tipografia"
+    ],
+    "softSkills": [
+      "Atenção aos Detalhes",
+      "Organização",
+      "Liderança",
+      "Trabalho em Equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Diretor de Arte",
+        "inicio": "2009-06",
+        "fim": "atual",
+        "descricao": "Atuação como diretor de arte em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Diretor de Arte - Projeto D",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do diretor de arte."
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Eficiência Energética"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Vitor Carvalho",
+    "foto": "./images/vitor_carvalho.png",
+    "cargo": "UI/UX Junior",
+    "resumo": "UI/UX Junior com atuação em Vitória/ES. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Vitória/ES",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Tipografia",
+      "Design Social Media",
+      "Illustrator"
+    ],
+    "softSkills": [
+      "Paciência",
+      "Liderança",
+      "Responsabilidade",
+      "Flexibilidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Pequena Empresa 73",
+        "cargo": "UI/UX Junior",
+        "inicio": "2012-12",
+        "fim": "atual",
+        "descricao": "Atuação como ui/ux junior em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "UI/UX Junior - Projeto B",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do ui/ux junior."
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Eficiência Energética"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "Ulysses Carvalho",
+    "foto": "./images/ulysses_carvalho.png",
+    "cargo": "Produtor(a) de Conteúdo",
+    "resumo": "Produtor(a) de Conteúdo com atuação em Aracaju/SE. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Aracaju/SE",
+    "area": "Fotografia",
+    "habilidadesTecnicas": [
+      "Fotografia de Eventos",
+      "Foto de Produto",
+      "Edição de Vídeo"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Atenção aos Detalhes",
+      "Organização",
+      "Honestidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Produtor(a) de Conteúdo",
+        "inicio": "2009-10",
+        "fim": "atual",
+        "descricao": "Atuação como produtor(a) de conteúdo em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Produtor(a) de Conteúdo - Projeto A",
+        "link": "https://www.elo7.com.br/exemplo",
+        "descricao": "Galeria de trabalhos e referências do produtor(a) de conteúdo."
+      }
+    ],
+    "areaInteresses": [
+      "Economia Criativa",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Karen Oliveira",
+    "foto": "./images/karen_oliveira.png",
+    "cargo": "Fotógrafo(a) Comercial",
+    "resumo": "Fotógrafo(a) Comercial com atuação em Vitória/ES. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Vitória/ES",
+    "area": "Fotografia",
+    "habilidadesTecnicas": [
+      "Direção de Fotografia",
+      "Edição de Vídeo",
+      "Ensaio Fotográfico"
+    ],
+    "softSkills": [
+      "Boa Escuta",
+      "Criatividade",
+      "Flexibilidade",
+      "Proatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Fotógrafo(a) Comercial",
+        "inicio": "2012-11",
+        "fim": "atual",
+        "descricao": "Atuação como fotógrafo(a) comercial em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Fotógrafo(a) Comercial - Projeto A",
+        "link": "https://www.behance.net/exemplo",
+        "descricao": "Galeria de trabalhos e referências do fotógrafo(a) comercial."
+      }
+    ],
+    "areaInteresses": [
+      "Novas técnicas",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Eduardo Moreira",
+    "foto": "./images/eduardo_moreira.png",
+    "cargo": "Chocolatier",
+    "resumo": "Chocolatier com atuação em São José dos Campos/SP. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "São José dos Campos/SP",
+    "area": "Alimentação",
+    "habilidadesTecnicas": [
+      "Catering",
+      "Doces Finos",
+      "Confeitaria Fina"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Criatividade",
+      "Comunicação",
+      "Disciplina"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Chocolatier",
+        "inicio": "2005-11",
+        "fim": "atual",
+        "descricao": "Atuação como chocolatier em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Chocolatier - Projeto A",
+        "link": "https://www.elo7.com.br/exemplo",
+        "descricao": "Galeria de trabalhos e referências do chocolatier."
+      }
+    ],
+    "areaInteresses": [
+      "Eficiência Energética",
+      "Novas técnicas"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Karen Barbosa",
+    "foto": "./images/karen_barbosa.png",
+    "cargo": "Faxineira",
+    "resumo": "Faxineira com atuação em Natal/RN. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Natal/RN",
+    "area": "Serviços Domésticos",
+    "habilidadesTecnicas": [
+      "Faxina Pós-Obra",
+      "Passar Roupas",
+      "Uso de Produtos Ecológicos"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Atenção aos Detalhes",
+      "Trabalho em Equipe",
+      "Honestidade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Faxineira",
+        "inicio": "2005-11",
+        "fim": "atual",
+        "descricao": "Atuação como faxineira em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Faxineira - Projeto C",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do faxineira."
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Empreendedorismo"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Ulysses Rocha",
+    "foto": "./images/ulysses_rocha.png",
+    "cargo": "Técnico em Irrigação",
+    "resumo": "Técnico em Irrigação com atuação em Florianópolis/SC. Experiência em projetos locais e atendimento personalizado.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Jardinagem e Paisagismo",
+    "habilidadesTecnicas": [
+      "Manutenção de Jardins",
+      "Poda de Árvores",
+      "Instalação de Irrigação"
+    ],
+    "softSkills": [
+      "Pontualidade",
+      "Flexibilidade",
+      "Honestidade",
+      "Disciplina"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Autônomo",
+        "cargo": "Técnico em Irrigação",
+        "inicio": "2006-01",
+        "fim": "atual",
+        "descricao": "Atuação como técnico em irrigação em serviços e projetos para clientes locais."
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Técnico em Irrigação - Projeto A",
+        "link": "https://www.youtube.com/watch?v=example",
+        "descricao": "Galeria de trabalhos e referências do técnico em irrigação."
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Sustentabilidade"
+    ]
   }
 ]

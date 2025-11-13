@@ -13,9 +13,10 @@ function ProfileCard({ perfil, onCardClick }) {
       {/* placeholder de imagem */}
       <img
         className="w-full h-80 object-cover"
-        src={`https://via.placeholder.com/300x200/EBF8FF/3182CE?text=${perfil.area}`}
+        src={`${perfil.foto}`}
         alt={`Foto de ${perfil.nome}`}
       />
+      
       
       <div className="p-4">
         {/* Informações Principais */}
